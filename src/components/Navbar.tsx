@@ -37,8 +37,7 @@ export default function Navbar() {
                                 href={path}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="font-glacial text-t5 text-white hover:text-pulse-x-red transition-colors duration-200"
-                            >
+                                className="font-glacial text-t5 text-white hover:text-drox360-orange transition-colors duration-200"                            >
                                 {label}
                             </a>
                         ) : (
@@ -46,7 +45,7 @@ export default function Navbar() {
                                 to={path}
                                 className={({ isActive }) =>
                                     `font-glacial text-t5 transition-colors duration-200 flex items-center gap-1 ${
-                                        isActive ? "text-pulse-x-red" : "text-white hover:text-pulse-x-red"
+                                        isActive ? "text-drox360-orange" : "text-white hover:text-drox360-orange"
                                     }`
                                 }
                             >

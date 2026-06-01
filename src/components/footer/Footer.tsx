@@ -2,9 +2,9 @@ import React from "react";
 import {entites, politique, services, social} from "./FooterData.tsx";
 
 const FooterColumn = ({
-                          title,
-                          children,
-                      }: {
+    title,
+    children,
+}: {
     title: string;
     children: React.ReactNode;
 }) => (
@@ -15,9 +15,9 @@ const FooterColumn = ({
 );
 
 const FooterLink = ({
-                        href,
-                        children,
-                    }: {
+    href,
+    children,
+}: {
     href: string;
     children: React.ReactNode;
 }) => (
@@ -67,22 +67,14 @@ const Footer = () => {
                         ))}
                     </FooterColumn>
 
-                    <FooterColumn title="Nos réseaux">
-                        <div className="flex flex-wrap gap-3 mt-1">
-                            {social.map((s) => (
-                                <a
-                                    key={s.label}
-                                    href={s.href}
-                                    aria-label={s.label}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex items-center justify-center w-[38px] h-[38px] rounded-full border border-white/50 text-white hover:border-white hover:bg-white/10 transition-all duration-200"
-                                >
-                                    {s.icon}
-                                </a>
-                            ))}
-                        </div>
+                    <FooterColumn title="Contact">
+                        {social.map((c) => (
+                            <FooterLink key={c.href} href={c.href}>
+                                {c.label}
+                            </FooterLink>
+                        ))}
                     </FooterColumn>
+
                 </div>
 
                 {/* Copyright */}
