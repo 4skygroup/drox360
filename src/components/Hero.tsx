@@ -1,0 +1,73 @@
+const tags = [
+    "Direction Créative",
+    "Production de Contenu",
+    "Stratégie de Marque",
+    "Social Media",
+];
+
+export default function Hero() {
+    return (
+        <section className="min-h-screen bg-drox360-light-gray flex items-center px-6 md:px-16 lg:px-24">
+            <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 py-16">
+
+                {/* Left Content */}
+                <div className="flex-1 flex flex-col gap-6 max-w-xl">
+
+                    {/* Title */}
+                    <div className="flex items-baseline gap-3">
+                        <h1 className="text-h4 md:text-h3 font-bold text-black leading-none tracking-tight">
+                            DROX
+                        </h1>
+                        <span className="text-h4 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">
+                          360°
+                        </span>
+                    </div>
+
+                    {/* Tags */}
+                    <div className="flex flex-wrap gap-2">
+                        {tags.map((tag) => (
+                            <span
+                                key={tag}
+                                className="border border-black/30 text-black text-t6 px-3 py-1 rounded-full tracking-wide"
+                            >
+                                {tag}
+                            </span>
+                        ))}
+                    </div>
+
+                    {/* Description */}
+                    <p className="text-t5 text-black/70 leading-relaxed max-w-sm md:max-w-lg">
+                        Nous sommes une agence créative indépendante, née de la conviction
+                        qu'une bonne histoire bien racontée est le levier le plus puissant
+                        qu'une marque puisse activer.
+                        Nous aidons les entreprises à trouver leur voix — et à la faire
+                        entendre.
+                    </p>
+
+                    {/* CTAs */}
+                    <div className="flex flex-wrap items-center gap-4 mt-2">
+                        <button className="flex items-center gap-2 bg-drox360-orange text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-orange-600 transition-colors duration-200">
+                            Démarrer le projet
+                            <span className="text-t4">→</span>
+                        </button>
+                        <button className="bg-black text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-black/80 transition-colors duration-200">
+                            Nos Services
+                        </button>
+                    </div>
+                </div>
+
+                {/* Right — Logo Card */}
+                <div className="flex-shrink-0">
+                    <div className="w-72 h-72 md:w-[420px] md:h-[420px] rounded-3xl overflow-hidden shadow-2xl bg-black">
+                        <img
+                            src="/logoDrox.png"
+                            alt="Drox 360 Logo"
+                            className="w-full h-full object-contain"
+                        />
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    );
+}
