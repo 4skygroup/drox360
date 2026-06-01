@@ -70,7 +70,7 @@ export default function Navbar() {
 
             {/* ── Mobile menu — ── */}
             <div
-                className={`fixed inset-0 bg-pulse-x-red md:hidden flex flex-col transition-all duration-300 ${
+                className={`fixed inset-0 bg-black md:hidden flex flex-col transition-all duration-300 ${
                     menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
                 }`}
                 style={{ zIndex: 40 }}
