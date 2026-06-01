@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard, {type ProjectCardProps} from "./ProjetCard.tsx";
+import ProjectCard, { type ProjectCardProps } from "./ProjetCard.tsx";
 
 const projects: ProjectCardProps[] = [
     {
@@ -52,14 +52,19 @@ const projects: ProjectCardProps[] = [
     },
 ];
 
+const row1 = [...projects, ...projects];
+const row2 = [...projects, ...projects];
+
 const ProjectsGrid: React.FC = () => {
     return (
-        <section className="px-6 py-12 max-w-7xl mx-auto">
+        <section className="py-12">
+
             {/* Header */}
-            <div className="mb-8">
+            <div className="px-6 mb-8 max-w-7xl mx-auto">
                 <p className="text-t5 font-bold text-drox360-orange uppercase tracking-widest mb-3">
                     — Projets & Réalisations
                 </p>
+
                 <p className="text-t5 text-drox360-dark-gray max-w-7xl">
                     DROX360° est une agence en construction. Cette page évoluera au fil de
                     nos collaborations. Ce que vous voyez ici reflète notre vision créative
@@ -68,12 +73,52 @@ const ProjectsGrid: React.FC = () => {
                 </p>
             </div>
 
-            {/* Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {projects.map((project, index) => (
-                    <ProjectCard key={index} {...project} />
-                ))}
+            {/* padding global */}
+            <div className="px-8 md:px-12 lg:px-32">
+
+                {/* IMPORTANT : wrapper SANS overflow qui casse la hauteur */}
+                <div className="relative">
+
+                    {/* zone visible */}
+                    <div className="overflow-hidden pb-6">
+
+                        <div className="flex flex-col gap-6">
+
+                            {/* Ligne 1 */}
+                            <div
+                                className="flex animate-slide-left gap-[0.66rem]"
+                                style={{ width: "max-content" }}
+                            >
+                                {row1.map((project, index) => (
+                                    <div
+                                        key={index}
+                                        className="w-[320px] md:w-[360px] lg:w-[400px] flex-shrink-0"
+                                    >
+                                        <ProjectCard {...project} />
+                                    </div>
+                                ))}
+                            </div>
+
+                            {/* Ligne 2 */}
+                            <div
+                                className="flex animate-slide-right gap-[0.66rem]"
+                                style={{ width: "max-content" }}
+                            >
+                                {row2.map((project, index) => (
+                                    <div
+                                        key={index}
+                                        className="w-[320px] md:w-[360px] lg:w-[400px] flex-shrink-0"
+                                    >
+                                        <ProjectCard {...project} />
+                                    </div>
+                                ))}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
     );
 };
