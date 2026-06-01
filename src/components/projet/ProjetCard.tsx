@@ -1,14 +1,5 @@
 import React from "react";
 
-// {
-//     image: "/imgCardDrox.png",
-//         status: "Livré",
-//     title: "Stratégie de lancement — App mobile B2B",
-//     description:
-//     "Accompagnement startup : positionnement, messages clés et supports investisseurs.",
-//         tags: ["Stratégie", "Brand", "2025"],
-// },
-
 export interface ProjectCardProps {
     image: string;
     status: string;
@@ -27,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
     return (
         <div
-            className="bg-white rounded-2xl overflow-hidden flex flex-col"
+            className="bg-white rounded-2xl overflow-hidden flex flex-col hover:scale-105"
             style={{ boxShadow: "3px 3px 10px 0px rgba(0,0,0,0.25)" }}
         >
             {/* Image */}
