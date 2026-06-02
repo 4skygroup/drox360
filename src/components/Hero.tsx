@@ -15,10 +15,10 @@ export default function Hero() {
 
                     {/* Title */}
                     <div className="flex items-baseline gap-3">
-                        <h1 className="text-h4 md:text-h3 font-bold text-black leading-none tracking-tight">
+                        <h2 className="text-t4 md:text-h3 font-bold text-black leading-none tracking-tight">
                             DROX
-                        </h1>
-                        <span className="text-h4 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">
+                        </h2>
+                        <span className="text-h5 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">
                           360°
                         </span>
                     </div>
@@ -58,9 +58,9 @@ export default function Hero() {
 
                 {/* Right — Logo Card */}
                 <div className="flex-shrink-0">
-                    <div className="w-72 h-72 md:w-[420px] md:h-[420px] rounded-3xl overflow-hidden shadow-2xl bg-black">
+                    <div className="w-72 h-72 md:w-[420px] md:h-[420px] rounded-3xl overflow-hidden shadow-2xl ">
                         <img
-                            src="/logoDrox.png"
+                            src="/heroImg.jpg"
                             alt="Drox 360 Logo"
                             className="w-full h-full object-contain"
                         />

@@ -77,10 +77,21 @@ const Footer = () => {
 
                 </div>
 
-                {/* Copyright */}
-                <p className="text-center text-t5 text-white">
-                    © 2026 Pulse X – Une entité Play To Sky Group
-                </p>
+                 {/* COPYRIGHT */}
+                 <div className="mt-8 flex justify-center items-center gap-3 text-t3 font-regular text-white/60 tracking-normal">
+                   <span>created by</span>
+                   <img
+                    src="/visuance.png"
+                    alt="Visuance logo"
+                    className="h-4"
+                  />
+                  <span>&</span>
+                  <img
+                    src="/play-to-sky.png"
+                    alt="Play To Sky logo"
+                    className="h-6"
+                  />
+                </div>
             </div>
         </footer>
     );

@@ -76,9 +76,7 @@ const ProjectsGrid: React.FC = () => {
             {/* padding global */}
             <div className="px-8 md:px-12 lg:px-32">
 
-                {/* IMPORTANT : wrapper SANS overflow qui casse la hauteur */}
                 <div className="relative">
-
                     {/* zone visible */}
                     <div className="overflow-hidden pb-6">
 
