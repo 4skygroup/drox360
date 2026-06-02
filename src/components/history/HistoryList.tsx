@@ -32,7 +32,7 @@ const historyItems: HistoryItem[] = [
 export default function HistoryList() {
     return (
         <section className="bg-drox360-light-gray py-24 px-6 lg:px-20">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-6xl mx-auto">
 
                 <p className="text-drox360-orange font-bold uppercase tracking-wide mb-10">
                     — Notre histoire

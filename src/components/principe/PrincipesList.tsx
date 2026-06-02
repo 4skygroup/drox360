@@ -36,7 +36,7 @@ const principles = [
 export default function PrincipesList() {
     return (
         <section className="bg-drox360-light-gray py-20 px-6 md:px-12 lg:px-20">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-6xl mx-auto">
                 <div className="flex items-center gap-4">
                     <div className="w-6 h-[2px] bg-drox360-orange" />
 

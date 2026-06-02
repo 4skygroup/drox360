@@ -27,7 +27,7 @@ const teamMembers = [
 export default function TeamList() {
     return (
         <section className="w-full bg-drox360-light-gray py-20 px-6 md:px-12">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-6xl mx-auto">
                 {/* Titre */}
                 <div className="flex items-center gap-3 mb-16">
                     <div className="w-6 h-[2px] bg-drox360-orange" />
