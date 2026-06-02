@@ -1,25 +1,27 @@
 import type { FAQItem } from "./FaqData.tsx";
 
-const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
-    <svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className="transition-transform duration-300 ease-in-out shrink-0"
-        style={{ transform: isOpen ? "rotate(180deg)" : "rotate(0deg)" }}
+const PlusIcon = ({ isOpen }: { isOpen: boolean }) => (
+    <div
+        className="shrink-0 w-5 h-5 rounded-full bg-black flex items-center justify-center transition-transform duration-300 ease-in-out"
+        style={{ transform: isOpen ? "rotate(45deg)" : "rotate(0deg)" }}
     >
-        <path
-            d="M5 7.5L10 12.5L15 7.5"
-            stroke="#F23333"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        />
-    </svg>
+        <svg
+            width="12"
+            height="12"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                d="M7 2V12M2 7H12"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+            />
+        </svg>
+    </div>
 );
-
 interface FAQRowProps {
     item: FAQItem;
     isOpen: boolean;
@@ -27,10 +29,10 @@ interface FAQRowProps {
 }
 
 const FAQRow = ({
-    item,
-    isOpen,
-    onToggle,
-}: FAQRowProps) => {
+                    item,
+                    isOpen,
+                    onToggle,
+                }: FAQRowProps) => {
 
     return (
         <div className="border-b border-[#2A2A2A]">
@@ -46,7 +48,7 @@ const FAQRow = ({
                     {item.question}
                 </span>
 
-                <ChevronIcon isOpen={isOpen} />
+                <PlusIcon isOpen={isOpen} />
             </button>
 
             <div

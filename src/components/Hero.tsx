@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 const tags = [
     "Direction Créative",
     "Production de Contenu",
@@ -6,6 +8,8 @@ const tags = [
 ];
 
 export default function Hero() {
+    const navigate = useNavigate();
+
     return (
         <section className="min-h-screen bg-drox360-light-gray flex items-center px-6 md:px-16 lg:px-24">
             <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 py-16">
@@ -46,11 +50,17 @@ export default function Hero() {
 
                     {/* CTAs */}
                     <div className="flex flex-wrap items-center gap-4 mt-2">
-                        <button className="flex items-center gap-2 bg-drox360-orange text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-orange-600 transition-colors duration-200">
+                        <button
+                            className="flex items-center gap-2 bg-drox360-orange text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-orange-600 transition-colors duration-200"
+                            onClick={() => navigate("/contact")}
+                        >
                             Démarrer le projet
                             <span className="text-t4">→</span>
                         </button>
-                        <button className="bg-black text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-black/80 transition-colors duration-200">
+                        <button
+                            className="bg-black text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-black/80 transition-colors duration-200"
+                            onClick={() => navigate("/projets")}
+                        >
                             Nos Projets
                         </button>
                     </div>
