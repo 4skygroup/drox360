@@ -4,10 +4,9 @@ export const politique = [
 ];
 
 export const services = [
-    { label: "Brand & Content", href: "/brandcontent" },
-    { label: "Production", href: "/production" },
-    { label: "Stratégie créative", href: "/strategiecreative" },
-    { label: "Social Media", href: "/socialmedia" },
+    { label: "Projets", href: "/projets" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" },
 ];
 
 export const entites = [
