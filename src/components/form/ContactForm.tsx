@@ -2,27 +2,23 @@ type ContactFormProps = {
     onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
 };
 
-export default function ContactForm({
-    onSubmit,
-}: ContactFormProps) {
-
+export default function ContactForm({ onSubmit }: ContactFormProps) {
     return (
-        <div className="rounded-[32px] bg-white p-10 shadow-sm">
-            <h2 className="mb-10 text-center text-4xl font-medium">
-                Vous avez un <span className="text-drox360-orange font-semibold">projet ?</span>
+        <div className="rounded-[32px] bg-white p-8 shadow-sm">
+            <h2 className="mb-10 text-center text-t2 font-medium">
+                Vous avez un{" "}
+                <span className="font-semibold text-drox360-orange">projet ?</span>
             </h2>
 
-            <form onSubmit={onSubmit} className="space-y-5">
+            <form onSubmit={onSubmit} className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                     <Field label="NOM*" placeholder="Votre nom" />
                     <Field label="PRÉNOM*" placeholder="Votre prénom" />
-
                     <Field label="E-MAIL*" placeholder="votremail@gmail.com" />
                     <Field
                         label="NOM ENTREPRISE / PROJET*"
                         placeholder="Entreprise"
                     />
-
                     <Field label="TYPE DE PROJET*" placeholder="Type de projet" />
                     <Field
                         label="BUDGET APPROXIMATIF"
@@ -34,9 +30,8 @@ export default function ContactForm({
                     <label className="mb-2 block text-xs uppercase tracking-wide text-neutral-700">
                         DESCRIPTION*
                     </label>
-
                     <textarea
-                        rows={5}
+                        rows={3}
                         placeholder="Décrivez votre projet"
                         className="w-full rounded-md border border-neutral-500 px-4 py-3 outline-none transition focus:border-black"
                     />
@@ -66,7 +61,6 @@ function Field({ label, placeholder }: FieldProps) {
             <label className="mb-2 block text-xs uppercase tracking-wide text-neutral-700">
                 {label}
             </label>
-
             <input
                 type="text"
                 placeholder={placeholder}

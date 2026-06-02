@@ -15,7 +15,7 @@ export default function Hero() {
 
                     {/* Title */}
                     <div className="flex items-baseline gap-3">
-                        <h2 className="text-t4 md:text-h3 font-bold text-black leading-none tracking-tight">
+                        <h2 className="text-h5 md:text-h3 font-bold text-black leading-none tracking-tight">
                             DROX
                         </h2>
                         <span className="text-h5 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">
@@ -51,7 +51,7 @@ export default function Hero() {
                             <span className="text-t4">→</span>
                         </button>
                         <button className="bg-black text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-black/80 transition-colors duration-200">
-                            Nos Services
+                            Nos Projets
                         </button>
                     </div>
                 </div>

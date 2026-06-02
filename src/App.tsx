@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar.tsx";
 import Footer from "./components/footer/Footer.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./components/form/Contact.tsx";
+import Projets from "./pages/Projets.tsx";
 
 function App() {
   return (
@@ -14,13 +15,9 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About/> } />
-            {/*<Route path="/services" element={<Services />} />*/}
+            <Route path="/projets" element={<Projets/>} />
             <Route path="/contact" element={<Contact />} />
 
-            {/*<Route path="/brandcontent" element={<BrandContent />} />*/}
-            {/*<Route path="/production" element={<Production />} />*/}
-            {/*<Route path="/strategiecreative" element={<StrategieCreative />} />*/}
-            {/*<Route path="/socialmedia" element={<SocialMedia />} />*/}
         </Routes>
         <Footer/>
     </div>

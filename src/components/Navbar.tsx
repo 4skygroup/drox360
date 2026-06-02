@@ -9,7 +9,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
     { label: "The Group", path: "https://www.playtosky.com/", external: true },
-    { label: "Services", path: "/services"},
+    { label: "Projets", path: "/projets"},
     { label: "About",   path: "/about" },
     { label: "Contact", path: "/contact" },
 ];

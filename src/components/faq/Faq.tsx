@@ -7,7 +7,7 @@ const FAQ = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     return (
-        <section className="w-full flex justify-center items-start px-6 py-16 gap-12">
+        <section className="w-full flex flex-col md:flex-row justify-center items-start px-6 py-16 gap-12">
 
             <div className="flex flex-col">
                 <p className="text-t5 font-bold text-drox360-orange uppercase tracking-widest mb-3">

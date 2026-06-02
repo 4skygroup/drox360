@@ -1,61 +1,14 @@
 import React from "react";
-import ProjectCard, { type ProjectCardProps } from "./ProjetCard.tsx";
-
-const projects: ProjectCardProps[] = [
-    {
-        image: "/imgCardDrox.png",
-        status: "Livré",
-        title: "Stratégie de lancement — App mobile B2B",
-        description:
-            "Accompagnement startup : positionnement, messages clés et supports investisseurs.",
-        tags: ["Stratégie", "Brand", "2025"],
-    },
-    {
-        image: "/imgCardDrox.png",
-        status: "Livré",
-        title: "Stratégie de lancement — App mobile B2B",
-        description:
-            "Accompagnement startup : positionnement, messages clés et supports investisseurs.",
-        tags: ["Stratégie", "Brand", "2025"],
-    },
-    {
-        image: "/imgCardDrox.png",
-        status: "Livré",
-        title: "Stratégie de lancement — App mobile B2B",
-        description:
-            "Accompagnement startup : positionnement, messages clés et supports investisseurs.",
-        tags: ["Stratégie", "Brand", "2025"],
-    },
-    {
-        image: "/imgCardDrox.png",
-        status: "Livré",
-        title: "Stratégie de lancement — App mobile B2B",
-        description:
-            "Accompagnement startup : positionnement, messages clés et supports investisseurs.",
-        tags: ["Stratégie", "Brand", "2025"],
-    },
-    {
-        image: "/imgCardDrox.png",
-        status: "Livré",
-        title: "Stratégie de lancement — App mobile B2B",
-        description:
-            "Accompagnement startup : positionnement, messages clés et supports investisseurs.",
-        tags: ["Stratégie", "Brand", "2025"],
-    },
-    {
-        image: "/imgCardDrox.png",
-        status: "Livré",
-        title: "Stratégie de lancement — App mobile B2B",
-        description:
-            "Accompagnement startup : positionnement, messages clés et supports investisseurs.",
-        tags: ["Stratégie", "Brand", "2025"],
-    },
-];
+import { useNavigate } from "react-router-dom";
+import {projects} from "./ProjetsData.ts";
+import ProjectCard from "./ProjetCard.tsx";
 
 const row1 = [...projects, ...projects];
 const row2 = [...projects, ...projects];
 
 const ProjectsGrid: React.FC = () => {
+    const navigate = useNavigate();
+
     return (
         <section className="py-12">
 
@@ -91,6 +44,7 @@ const ProjectsGrid: React.FC = () => {
                                     <div
                                         key={index}
                                         className="w-[320px] md:w-[360px] lg:w-[400px] flex-shrink-0"
+                                        onClick={() => navigate("/projets")}
                                     >
                                         <ProjectCard {...project} />
                                     </div>
@@ -106,6 +60,7 @@ const ProjectsGrid: React.FC = () => {
                                     <div
                                         key={index}
                                         className="w-[320px] md:w-[360px] lg:w-[400px] flex-shrink-0"
+                                        onClick={() => navigate("/projets")}
                                     >
                                         <ProjectCard {...project} />
                                     </div>

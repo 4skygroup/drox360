@@ -6,8 +6,8 @@ export default {
         extend: {
             animation: {
                 'breathe': 'breathe 4s ease-in-out infinite',
-                "slide-left": "slideLeft 12s linear infinite",
-                "slide-right": "slideRight 12s linear infinite",
+                "slide-left": "slideLeft 50s linear infinite",
+                "slide-right": "slideRight 50s linear infinite",
             },
 
             keyframes: {
