@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drox360.fr/sitemap.xml
+Sitemap: https://drox360.fr/sitemap-images.xml

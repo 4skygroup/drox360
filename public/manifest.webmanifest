@@ -1,0 +1,19 @@
+{
+  "name": "DROX 360° — Agence Créative",
+  "short_name": "DROX 360°",
+  "description": "Agence créative indépendante basée à Paris. Direction créative, production de contenu et stratégie de marque.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#E5E5E5",
+  "theme_color": "#FC641C",
+  "orientation": "portrait-primary",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/logoDrox.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,10 +1,108 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>drox360</title>
+
+    <!-- Favicon & manifest -->
+    <link rel="icon" type="image/svg+xml" href="/logoDrox.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#FC641C" />
+
+    <!-- SEO primaire -->
+    <title>DROX 360° — Agence Créative | Direction Créative &amp; Stratégie de Marque à Paris</title>
+    <meta name="description" content="DROX 360° est une agence créative indépendante basée à Paris. Direction créative, production de contenu, stratégie de marque et social media pour les marques exigeantes." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="DROX 360°" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://drox360.fr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DROX 360°" />
+    <meta property="og:url" content="https://drox360.fr/" />
+    <meta property="og:title" content="DROX 360° — Agence Créative | Direction Créative &amp; Stratégie de Marque" />
+    <meta property="og:description" content="Agence créative indépendante basée à Paris. Direction créative, production de contenu, stratégie de marque et social media pour les marques exigeantes." />
+    <meta property="og:image" content="https://drox360.fr/heroImg.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DROX 360° — Agence Créative | Direction Créative &amp; Stratégie de Marque" />
+    <meta name="twitter:description" content="Agence créative indépendante basée à Paris. Direction créative, production de contenu, stratégie de marque et social media pour les marques exigeantes." />
+    <meta name="twitter:image" content="https://drox360.fr/heroImg.jpg" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://drox360.fr/#organization",
+          "name": "DROX 360°",
+          "url": "https://drox360.fr",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://drox360.fr/logoDrox.png"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "hello@drox360.fr",
+            "contactType": "customer service",
+            "availableLanguage": "French"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Paris",
+            "addressCountry": "FR"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://drox360.fr/#website",
+          "url": "https://drox360.fr",
+          "name": "DROX 360°",
+          "publisher": {
+            "@id": "https://drox360.fr/#organization"
+          },
+          "inLanguage": "fr-FR"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Pourquoi confier vos réseaux sociaux à Pulse X ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Parce qu'une présence sur les réseaux sociaux ne s'improvise pas. De la stratégie à la création de contenu, en passant par la publicité et l'analyse, chaque étape compte. Pulse X regroupe toutes ces expertises au sein d'une seule équipe, avec un engagement constant envers la qualité."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Quels services propose Pulse X ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pulse X couvre l'ensemble de votre présence sur les réseaux sociaux : stratégie éditoriale, création de contenu, gestion des comptes, publicité digitale (Meta Ads, TikTok Ads), animation de communauté et reporting de performance."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment Pulse X développe-t-il ma visibilité et mon audience ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Notre approche est basée sur la data et l'itération. Nous définissons votre positionnement, construisons une stratégie éditoriale distinctive, puis produisons du contenu conçu pour maximiser la portée et l'engagement."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
