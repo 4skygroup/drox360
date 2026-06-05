@@ -22,7 +22,7 @@ export default function Navbar() {
 
             {/* Logo */}
             <NavLink to="/" className="shrink-0">
-                <img src="/logoDrox.png" alt="drox 360" className="h-16" />
+                <img src="/logoDrox.png" alt="drox 360" className="h-8" />
             </NavLink>
 
             {/* ── Desktop nav ── */}

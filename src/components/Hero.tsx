@@ -19,12 +19,13 @@ export default function Hero() {
 
                     {/* Title */}
                     <div className="flex items-baseline gap-3">
-                        <h2 className="text-h5 md:text-h3 font-bold text-black leading-none tracking-tight">
-                            DROX
-                        </h2>
-                        <span className="text-h5 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">
-                          360°
-                        </span>
+                        {/*<h2 className="text-h5 md:text-h3 font-bold text-black leading-none tracking-tight">*/}
+                        {/*    DROX*/}
+                        {/*</h2>*/}
+                        {/*<span className="text-h5 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">*/}
+                        {/*  360°*/}
+                        {/*</span>*/}
+                        <img src="/logoDrox.png" alt="drox 360" className="h-15" />
                     </div>
 
                     {/* Tags */}
