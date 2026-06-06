@@ -35,9 +35,9 @@ export default function ReloadedHero() {
                 >
                     <h2 className="inline-flex items-center gap-[0.15em] whitespace-nowrap text-t3 md:text-5xl lg:text-6xl font-black leading-[1.05] tracking-[-0.02em] text-[#111111]">
                         <span className="inline-flex items-center justify-center w-[1em] h-[1em] border-[0.08em] border-[#111111] rounded-full shrink-0">
-                          <span className="text-[0.65em] font-black leading-none">R</span>
+                          <span className="text-[0.65em] font-black leading-none">D</span>
                         </span>
-                        eloaded for what's next.
+                        Lorem ipsum dolor sit amet, c
                     </h2>
                 </div>
 
@@ -46,17 +46,7 @@ export default function ReloadedHero() {
                     style={{ opacity: subtitleOpacity, transform: `translateY(${subtitleY}px)`, transition: "opacity 0.05s linear, transform 0.05s linear" }}
                 >
                     <p className="text-t4 md:text-t3 font-normal leading-[1.7] text-[#111111]">
-                        La communication a changé :<br />
-                        trop de formats, trop de bruit, pas assez
-                        d'impact. Les marques et les entreprises
-                        n'ont plus besoin de plus de contenu, mais
-                        de plus de sens et d'efficacité.{" "}
-                        <span className="text-drox360-dark-gray">Spoa®</span>
-                        (reloaded) est notre réponse stratégique.
-                        Votre partenaire pensé pour l'après.
-                    </p>
-                    <p className="mt-3 text-xs font-normal text-[#111111]">
-                        For <span className="text-drox360-dark-gray italic">what's next.</span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda at dicta dolorem nemo odit reiciendis, vero. Atque, beatae commodi, dolorem fugit id obcaecati optio quam qui recusandae similique voluptate?
                     </p>
                 </div>
 
