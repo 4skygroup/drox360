@@ -11,6 +11,7 @@ const navItems: NavItem[] = [
     { label: "The Group", path: "https://www.playtosky.com/", external: true },
     { label: "Projets", path: "/projets"},
     { label: "About",   path: "/about" },
+    { label: "Services",   path: "/services" },
     { label: "Contact", path: "/contact" },
 ];
 
@@ -18,11 +19,11 @@ export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-4">
+        <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-5">
 
             {/* Logo */}
             <NavLink to="/" className="shrink-0">
-                <img src="/logoDrox.png" alt="drox 360" className="h-8" />
+                <img src="/logoDrox.png" alt="drox 360" className="h-6" />
             </NavLink>
 
             {/* ── Desktop nav ── */}

@@ -12,25 +12,24 @@ export default function HeroComp({
 
     return (
         <section className="min-h-screen bg-drox360-light-gray flex items-center justify-center px-6 md:px-16 lg:px-24">
-            <div className="max-w-2xl mx-auto text-center flex flex-col items-center gap-6">
+            <div className="max-w-2xl w-full flex flex-col gap-6">
 
                 {/* Title */}
-                <h2 className="text-h6 md:text-h3 font-bold leading-none tracking-tight text-center">
+                <h2 className="text-h6 md:text-h3 font-bold leading-none tracking-tight">
                     {blackText && (
                         <span className="text-black">
-                            {blackText}
-                        </span>
+                    {blackText}
+                </span>
                     )}
-
                     {orangeText && (
                         <span className="text-drox360-orange">
-                            {" "}{orangeText}
-                        </span>
+                    {" "}{orangeText}
+                </span>
                     )}
                 </h2>
 
                 {/* Description */}
-                <p className="text-t5 text-black/70 leading-relaxed max-w-2xl">
+                <p className="text-t5 text-black/70 leading-relaxed">
                     {description}
                 </p>
             </div>

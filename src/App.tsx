@@ -6,6 +6,7 @@ import Footer from "./components/footer/Footer.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./components/form/Contact.tsx";
 import Projets from "./pages/Projets.tsx";
+import Services from "./pages/Services.tsx";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About/> } />
             <Route path="/projets" element={<Projets/>} />
+            <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
-
         </Routes>
         <Footer/>
     </div>
