@@ -20,10 +20,13 @@ const FooterLink = ({
 }: {
     href: string;
     children: React.ReactNode;
+
 }) => (
     <a
         href={href}
         className="text-t5 text-white hover:underline transition-colors duration-200"
+        target="_blank"
+        rel="noopener noreferrer"
     >
         {children}
     </a>
