@@ -1,9 +1,9 @@
 import Hero from "../components/Hero.tsx";
-import ProjetGrid from "../components/projet/ProjetGrid.tsx";
 import Faq from "../components/faq/Faq.tsx";
 import LogoSlider from "../components/LogoSlider.tsx";
 import Slogan from "../components/Slogan.tsx";
 import ProcessList from "../components/process/ProcessList.tsx";
+import About from "../components/About.tsx";
 
 function Home() {
     return (
@@ -11,8 +11,9 @@ function Home() {
             <Hero />
             <Slogan />
             <LogoSlider />
-            <ProjetGrid />
+            {/*<ProjetGrid />*/}
             <ProcessList />
+            <About />
             <Faq />
         </div>
     );

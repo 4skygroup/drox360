@@ -10,10 +10,6 @@ const FAQ = () => {
         <section className="w-full flex flex-col md:flex-row justify-center items-start px-6 py-16 gap-12">
 
             <div className="flex flex-col">
-                <p className="text-t5 font-bold text-drox360-orange uppercase tracking-widest mb-3">
-                    — Projets & Réalisations
-                </p>
-
                 <h2 className="font-glacial text-h7 font-bold text-black tracking-widest uppercase">
                     FAQ
                 </h2>

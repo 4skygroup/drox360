@@ -21,9 +21,8 @@ export const entites = [
 ];
 
 export const social = [
-    { label: "hello@drox360.fr", href: "#" },
-    { label: "+33 6 00 00 00 00", href: "#" },
-    { label: "Paris, France", href: "#" },
+    { label: "contact@drox360.com", href: "#" },
+    { label: "01 30 29 30 25", href: "#" },
     { label: "Instagram", href: "#" },
     { label: "LinkedIn", href: "#" },
 ];

@@ -18,15 +18,15 @@ export default function Hero() {
                 <div className="flex-1 flex flex-col gap-6 max-w-xl">
 
                     {/* Title */}
-                    <div className="flex items-baseline gap-3">
-                        {/*<h2 className="text-h5 md:text-h3 font-bold text-black leading-none tracking-tight">*/}
-                        {/*    DROX*/}
-                        {/*</h2>*/}
-                        {/*<span className="text-h5 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">*/}
-                        {/*  360°*/}
-                        {/*</span>*/}
-                        <img src="/logoDrox.png" alt="drox 360" className="h-15" />
-                    </div>
+                    {/*<div className="flex items-baseline gap-3">*/}
+                    {/*    <h2 className="text-h5 md:text-h3 font-bold text-black leading-none tracking-tight">*/}
+                    {/*        DROX*/}
+                    {/*    </h2>*/}
+                    {/*    <span className="text-h5 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">*/}
+                    {/*      360°*/}
+                    {/*    </span>*/}
+                    {/*    <img src="/logoDrox.png" alt="drox 360" className="h-15" />*/}
+                    {/*</div>*/}
 
                     {/* Tags */}
                     <div className="flex flex-wrap gap-2">
@@ -58,12 +58,12 @@ export default function Hero() {
                             Démarrer le projet
                             <span className="text-t4">→</span>
                         </button>
-                        <button
-                            className="bg-black text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-black/80 transition-colors duration-200"
-                            onClick={() => navigate("/projets")}
-                        >
-                            Nos Projets
-                        </button>
+                        {/*<button*/}
+                        {/*    className="bg-black text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-black/80 transition-colors duration-200"*/}
+                        {/*    onClick={() => navigate("/projets")}*/}
+                        {/*>*/}
+                        {/*    Nos Projets*/}
+                        {/*</button>*/}
                     </div>
                 </div>
 

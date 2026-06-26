@@ -33,11 +33,11 @@ export default function ReloadedHero() {
                     className="w-full max-w-[900px] px-6 text-center origin-center"
                     style={{ transform: `scale(${titleScale}) translateY(${titleY}px)`, transition: "transform 0.05s linear" }}
                 >
-                    <h2 className="inline-flex items-center gap-[0.15em] whitespace-nowrap text-t3 md:text-5xl lg:text-6xl font-black leading-[1.05] tracking-[-0.02em] text-[#111111]">
+                    <h2 className="inline-flex items-center gap-[0.15em] whitespace-nowrap text-t5 lg:text-h6 font-black leading-[1.05] tracking-[-0.02em] text-[#111111]">
                         <span className="inline-flex items-center justify-center w-[1em] h-[1em] border-[0.08em] border-[#111111] rounded-full shrink-0">
                           <span className="text-[0.65em] font-black leading-none">D</span>
                         </span>
-                        Lorem ipsum dolor sit amet, c
+                        Créer, n'est pas décorer. C'est orienter.
                     </h2>
                 </div>
 
@@ -45,8 +45,8 @@ export default function ReloadedHero() {
                     className="mt-8 max-w-screen-md px-6 text-center"
                     style={{ opacity: subtitleOpacity, transform: `translateY(${subtitleY}px)`, transition: "opacity 0.05s linear, transform 0.05s linear" }}
                 >
-                    <p className="text-t4 md:text-t3 font-normal leading-[1.7] text-[#111111]">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda at dicta dolorem nemo odit reiciendis, vero. Atque, beatae commodi, dolorem fugit id obcaecati optio quam qui recusandae similique voluptate?
+                    <p className="text-t6 md:text-t3 font-normal leading-[1.7] text-[#111111]">
+                        Chaque marque a une intention. Drox 360° lui donne une direction, une image et une présence capable d'exister avec force sur ses supports clés.
                     </p>
                 </div>
 
