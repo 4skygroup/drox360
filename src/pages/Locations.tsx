@@ -11,7 +11,7 @@ export default function Locations() {
                 <div className="flex flex-col items-center justify-center gap-6 md:gap-8">
 
                     <p className="text-center font-bold max-w-4xl text-3xl md:text-t1 ">
-                        Seofy, une vision unique pour votre croissance
+                        Drox 360°, une vision unique pour votre croissance
                     </p>
                 </div>
 
@@ -20,7 +20,7 @@ export default function Locations() {
                 <div className="grid grid-cols-2 md:flex md:flex-row gap-10 md:gap-32 w-fit max-w-5xl justify-items-center">
 
                     <div className="flex flex-col gap-y-1 items-center justify-center">
-                        <span className="font-bold text-3xl md:text-h6">+250</span>
+                        <span className="font-bold text-3xl md:text-h6">+50</span>
                         <span className="uppercase text-xs md:text-t6">Experts</span>
                     </div>
 
