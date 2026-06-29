@@ -28,22 +28,21 @@ const services = [
     },
 ]
 
+const doubled = [...services, ...services]
+
 export default function ProcessList() {
     return (
-        <section className="max-w-7xl mx-auto p-8 md:p-12 lg:p-10">
-            <h2 className="text-h7 md:text-h6 font-bold text-black mb-10">
-                Drox c'est :
-            </h2>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {services.map((s) => (
-                    <ProcessCard
-                        key={s.index}
-                        title={s.title}
-                        description={s.description}
-                        index={s.index}
-                        Icon={s.Icon}
-                    />
+        <section className="py-10 overflow-hidden">
+            <div className="flex animate-slide-left gap-6 w-max">
+                {doubled.map((s, i) => (
+                    <div key={i} className="w-[280px] shrink-0">
+                        <ProcessCard
+                            title={s.title}
+                            description={s.description}
+                            index={s.index}
+                            Icon={s.Icon}
+                        />
+                    </div>
                 ))}
             </div>
         </section>

@@ -12,8 +12,8 @@ function Home() {
             <Slogan />
             <LogoSlider />
             {/*<ProjetGrid />*/}
-            <ProcessList />
             <About />
+            <ProcessList />
             <Faq />
         </div>
     );

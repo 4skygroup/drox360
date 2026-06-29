@@ -22,25 +22,28 @@ export default function Navbar() {
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black flex items-center justify-between px-8 py-5">
 
-            {/* Gauche */}
-            <div className="flex items-center gap-10">
+            {/* Gauche (desktop uniquement) */}
+            <div className="hidden md:flex items-center gap-10">
                 <NavLink
                     to="/en"
-                    className="hidden md:flex items-center gap-2 bg-white text-black px-5 py-2 rounded-full font-glacial text-t6 hover:bg-white/90 transition"
+                    className="flex items-center gap-2 bg-white text-black px-5 py-2 rounded-full font-glacial text-t6 hover:bg-white/90 transition"
                 >
                     <Globe className="w-4 h-4" />
                     Français
                 </NavLink>
                 <NavLink
                     to="/location"
-                    className="hidden md:flex items-center gap-2 text-white hover:text-seofy-green transition-colors"
+                    className="flex items-center gap-2 text-white hover:text-drox360-orange transition-colors"
                 >
                     <MapPin className="w-5 h-5" />
                 </NavLink>
             </div>
 
-            {/* Logo */}
-            <NavLink to="/" className="shrink-0">
+            {/* Logo : à gauche en mobile, centré par rapport au header en desktop */}
+            <NavLink
+                to="/"
+                className="shrink-0 md:absolute md:left-1/2 md:-translate-x-1/2"
+            >
                 <img src="/logoDrox.png" alt="drox 360" className="h-6" />
             </NavLink>
 
@@ -75,7 +78,7 @@ export default function Navbar() {
                 ))}
             </ul>
 
-            {/* Hamburger */}
+            {/* Hamburger (mobile uniquement, à droite) */}
             <button
                 className={`md:hidden flex flex-col justify-center items-center gap-1.5 w-8 h-8 z-50 relative ${menuOpen ? "invisible" : ""}`}
                 onClick={() => setMenuOpen((prev) => !prev)}
@@ -106,6 +109,26 @@ export default function Navbar() {
                 <div className="flex justify-center mt-16 mb-12">
                     <NavLink to="/" onClick={() => setMenuOpen(false)}>
                         <img src="/logoDrox.png" alt="Pulse X" className="h-12" />
+                    </NavLink>
+                </div>
+
+                {/* Langue + localisation (mobile) */}
+                <div className="flex items-center justify-center gap-4 mb-10">
+                    <NavLink
+                        to="/en"
+                        onClick={() => setMenuOpen(false)}
+                        className="flex items-center gap-2 bg-white text-black px-5 py-2 rounded-full font-glacial text-t6"
+                    >
+                        <Globe className="w-4 h-4" />
+                        Français
+                    </NavLink>
+
+                    <NavLink
+                        to="/location"
+                        onClick={() => setMenuOpen(false)}
+                        className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white"
+                    >
+                        <MapPin className="w-5 h-5" />
                     </NavLink>
                 </div>
 

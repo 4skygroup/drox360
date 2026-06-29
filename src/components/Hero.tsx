@@ -12,7 +12,7 @@ export default function Hero() {
 
     return (
         <section className="min-h-screen bg-drox360-light-gray flex items-center px-6 md:px-16 lg:px-24">
-            <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 py-16">
+            <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
 
                 {/* Left Content */}
                 <div className="flex-1 flex flex-col gap-6 max-w-xl">

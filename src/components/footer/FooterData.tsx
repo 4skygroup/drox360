@@ -23,6 +23,7 @@ export const entites = [
 export const social = [
     { label: "contact@drox360.com", href: "#" },
     { label: "01 30 29 30 25", href: "#" },
-    { label: "Instagram", href: "#" },
-    { label: "LinkedIn", href: "#" },
+    { label: "Instagram", href: "https://www.instagram.com/drox360/" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/company/drox360" },
+    { label: "Tiktok", href: "https://www.tiktok.com/@drox360agency?" },
 ];
