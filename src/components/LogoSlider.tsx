@@ -9,11 +9,13 @@ interface Logo {
 const LOGOS: Logo[] = [
     { id: 1, src: '/logo/barriere.png', alt: "barriere" },
     { id: 2, src: '/logo/canal-plus.png', alt: 'canal-plus' },
-    { id: 3, src: '/logo/cartier.png', alt: 'cartier' },
+    { id: 3, src: '/logo/cartier.webp', alt: 'cartier' },
     { id: 4, src: '/logo/cheval-blanc.png', alt: 'cheval-blanc' },
     { id: 5, src: '/logo/chopard.png', alt: 'chopard' },
-    { id: 6, src: '/logo/dior.png', alt: 'dior' },
-    { id: 7, src: '/logo/loewe.png', alt: 'loewe' },
+    { id: 6, src: '/logo/dior.webp', alt: 'dior' },
+    { id: 7, src: '/logo/loewe.webp', alt: 'loewe' },
+    { id: 8, src: '/logo/netflix.webp', alt: 'netflix' },
+    { id: 9, src: '/logo/redbull.webp', alt: 'redbull' },
 ]
 
 export const SliderInfini: React.FC = () => {
