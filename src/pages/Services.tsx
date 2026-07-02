@@ -1,17 +1,19 @@
 import HeroComp from "../components/HeroComp.tsx";
 import ServiceList from "../components/service/ServiceList.tsx";
+import { useTranslation } from 'react-i18next';
 
+function Services() {
+    const { t } = useTranslation();
 
-function Home() {
     return (
         <div className="bg-drox360-light-gray">
             <HeroComp
-                orangeText="Nos Services"
-                description="Quatre domaines d'intervention, un seul fil conducteur : aider votre marque à communiquer avec clarté, cohérence et impact. Chaque projet est traité sur mesure — pas de forfait standard, pas de livrable générique."
+                orangeText={t('services-hero.orangeText')}
+                description={t('services-hero.description')}
             />
             <ServiceList />
         </div>
     );
 }
 
-export default Home;
+export default Services;

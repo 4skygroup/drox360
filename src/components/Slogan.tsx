@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
-export default function ReloadedHero() {
+export default function Slogan() {
+    const { t } = useTranslation();
     const sectionRef = useRef<HTMLDivElement>(null);
     const [progress, setProgress] = useState(0);
 
@@ -37,7 +39,7 @@ export default function ReloadedHero() {
                         <span className="inline-flex items-center justify-center w-[1em] h-[1em] border-[0.08em] border-[#111111] rounded-full shrink-0">
                           <span className="text-[0.65em] font-black leading-none">D</span>
                         </span>
-                        Créer, n'est pas décorer. C'est orienter.
+                        {t("slogan.title")}
                     </h2>
                 </div>
 
@@ -46,7 +48,7 @@ export default function ReloadedHero() {
                     style={{ opacity: subtitleOpacity, transform: `translateY(${subtitleY}px)`, transition: "opacity 0.05s linear, transform 0.05s linear" }}
                 >
                     <p className="text-t6 md:text-t3 font-normal leading-[1.7] text-[#111111]">
-                        Chaque marque a une intention. Drox 360° lui donne une direction, une image et une présence capable d'exister avec force sur ses supports clés.
+                        {t("slogan.subtitle")}
                     </p>
                 </div>
 

@@ -1,4 +1,4 @@
-import type { FAQItem } from "./FaqData.tsx";
+import { useTranslation } from "react-i18next";
 
 const PlusIcon = ({ isOpen }: { isOpen: boolean }) => (
     <div
@@ -22,30 +22,25 @@ const PlusIcon = ({ isOpen }: { isOpen: boolean }) => (
         </svg>
     </div>
 );
+
 interface FAQRowProps {
-    item: FAQItem;
+    id: string;
     isOpen: boolean;
     onToggle: () => void;
 }
 
-const FAQRow = ({
-                    item,
-                    isOpen,
-                    onToggle,
-                }: FAQRowProps) => {
+const FAQRow = ({ id, isOpen, onToggle }: FAQRowProps) => {
+    const { t } = useTranslation();
 
     return (
         <div className="border-b border-[#2A2A2A]">
-
             <button
                 onClick={onToggle}
                 className="w-full flex items-center justify-between py-5 px-0 text-left group"
                 aria-expanded={isOpen}
             >
-                <span
-                    className="font-glacial text-t5 transition-colors duration-200 text-black pr-4"
-                >
-                    {item.question}
+                <span className="font-glacial text-t5 transition-colors duration-200 text-black pr-4">
+                    {t(`faq.items.${id}.question`)}
                 </span>
 
                 <PlusIcon isOpen={isOpen} />
@@ -59,10 +54,9 @@ const FAQRow = ({
                 }}
             >
                 <p className="font-glacial text-t5 text-black pb-5 leading-relaxed">
-                    {item.answer}
+                    {t(`faq.items.${id}.answer`)}
                 </p>
             </div>
-
         </div>
     );
 };

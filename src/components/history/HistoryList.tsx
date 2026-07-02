@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import HistoryCard from "./HistoryCard";
 
 interface HistoryItem {
@@ -6,36 +7,38 @@ interface HistoryItem {
     description: string;
 }
 
-const historyItems: HistoryItem[] = [
-    {
-        value: "2025",
-        title: "Fondée à Paris",
-        description: "France & International.",
-    },
-    {
-        value: "Agile",
-        title: "Équipe cœur",
-        description: "Réseau de talents spécialisés.",
-    },
-    {
-        value: "100%",
-        title: "Indépendant",
-        description: "Aucun actionnaire extérieur.",
-    },
-    {
-        value: "Solo",
-        title: "Intégrée",
-        description: "Stratégie & Production unifiées.",
-    },
-];
-
 export default function HistoryList() {
+    const { t } = useTranslation();
+
+    const historyItems: HistoryItem[] = [
+        {
+            value: t("history.items.founded.value"),
+            title: t("history.items.founded.title"),
+            description: t("history.items.founded.description"),
+        },
+        {
+            value: t("history.items.team.value"),
+            title: t("history.items.team.title"),
+            description: t("history.items.team.description"),
+        },
+        {
+            value: t("history.items.independent.value"),
+            title: t("history.items.independent.title"),
+            description: t("history.items.independent.description"),
+        },
+        {
+            value: t("history.items.integrated.value"),
+            title: t("history.items.integrated.title"),
+            description: t("history.items.integrated.description"),
+        },
+    ];
+
     return (
         <section className="bg-drox360-light-gray py-24 px-6 lg:px-20">
             <div className="max-w-6xl mx-auto">
 
                 <p className="text-drox360-orange font-bold uppercase tracking-wide mb-10">
-                    — Notre histoire
+                    {t("history.sectionLabel")}
                 </p>
 
                 <div className="grid lg:grid-cols-2 gap-20 items-start">
@@ -57,30 +60,23 @@ export default function HistoryList() {
 
                     <div className="max-w-xl">
                         <p className="mb-6 leading-relaxed">
-                            DROX360° est née d'un constat partagé par ses fondateurs :
-                            trop de bonnes entreprises communiquent mal — pas par manque
-                            d'idées, mais par manque de temps, d'outils et de méthode.
+                            {t("history.paragraph1")}
                         </p>
 
                         <p className="mb-6 leading-relaxed">
-                            Et trop d'agences proposent des solutions standardisées à
-                            des problèmes qui sont, par nature, uniques.
+                            {t("history.paragraph2")}
                         </p>
 
                         <p className="mb-6 leading-relaxed">
-                            Une structure agile, sans couches hiérarchiques inutiles,
-                            capable d'aller vite sans sacrifier l'exigence.
+                            {t("history.paragraph3")}
                         </p>
 
                         <p className="text-drox360-orange mb-6 leading-relaxed">
-                            "On ne veut pas être l'agence qui fait tout.
-                            On veut être celle qui fait bien."
+                            {t("history.quote")}
                         </p>
 
                         <p className="leading-relaxed">
-                            Aujourd'hui, DROX360° accompagne des entreprises en
-                            croissance, des indépendants ambitieux et des marques
-                            en cours de construction.
+                            {t("history.paragraph4")}
                         </p>
                     </div>
 
