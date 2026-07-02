@@ -1,17 +1,17 @@
+import { useTranslation } from "react-i18next";
+
 export default function PolitiqueConfidentialite() {
+    const { t } = useTranslation();
+
     const sections = [
         {
-            title: "Collecte des données",
+            title: t("politiqueConfidentialite.collecte.title"),
             content: (
                 <>
-                    <p>Drox360 peut collecter des données lorsque vous :</p>
+                    <p>{t("politiqueConfidentialite.collecte.intro")}</p>
 
                     <ul className="mt-3 space-y-1 list-none">
-                        {[
-                            "Utilisez la plateforme ou le site",
-                            "Remplissez un formulaire de contact ou de démonstration",
-                            "Naviguez sur les pages du site",
-                        ].map((item) => (
+                        {(t("politiqueConfidentialite.collecte.items", { returnObjects: true }) as string[]).map((item) => (
                             <li key={item} className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
                                 {item}
@@ -19,25 +19,15 @@ export default function PolitiqueConfidentialite() {
                         ))}
                     </ul>
 
-                    <p className="mt-4">
-                        Les données peuvent inclure : nom, prénom, email,
-                        téléphone, entreprise, données techniques, adresse IP
-                        et logs de connexion.
-                    </p>
+                    <p className="mt-4">{t("politiqueConfidentialite.collecte.outro")}</p>
                 </>
             ),
         },
         {
-            title: "Utilisation des données",
+            title: t("politiqueConfidentialite.utilisation.title"),
             content: (
                 <ul className="space-y-1 list-none">
-                    {[
-                        "Fournir et améliorer les services de la plateforme",
-                        "Gérer les demandes de contact et de démonstration",
-                        "Assurer le support utilisateur",
-                        "Améliorer les performances et la sécurité du système",
-                        "Réaliser des analyses d'usage et des statistiques",
-                    ].map((item) => (
+                    {(t("politiqueConfidentialite.utilisation.items", { returnObjects: true }) as string[]).map((item) => (
                         <li key={item} className="flex items-center gap-2">
                             <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
                             {item}
@@ -47,14 +37,10 @@ export default function PolitiqueConfidentialite() {
             ),
         },
         {
-            title: "Base légale",
+            title: t("politiqueConfidentialite.baseLegale.title"),
             content: (
                 <ul className="space-y-1 list-none">
-                    {[
-                        "Le consentement de l'utilisateur",
-                        "L'exécution d'un contrat ou d'une demande de service",
-                        "L'intérêt légitime de l'entreprise (amélioration du produit et sécurité)",
-                    ].map((item) => (
+                    {(t("politiqueConfidentialite.baseLegale.items", { returnObjects: true }) as string[]).map((item) => (
                         <li key={item} className="flex items-center gap-2">
                             <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
                             {item}
@@ -64,43 +50,26 @@ export default function PolitiqueConfidentialite() {
             ),
         },
         {
-            title: "Durée de conservation",
+            title: t("politiqueConfidentialite.conservation.title"),
             content: (
                 <ul className="space-y-1 list-none">
-                    <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
-                        Utilisateurs prospects : jusqu'à 3 ans après le dernier
-                        contact.
-                    </li>
-
-                    <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
-                        Clients / utilisateurs actifs : durée du contrat +
-                        obligations légales.
-                    </li>
-
-                    <li className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
-                        Logs techniques : durée limitée pour la sécurité et la
-                        maintenance.
-                    </li>
+                    {(t("politiqueConfidentialite.conservation.items", { returnObjects: true }) as string[]).map((item) => (
+                        <li key={item} className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
+                            {item}
+                        </li>
+                    ))}
                 </ul>
             ),
         },
         {
-            title: "Partage des données",
+            title: t("politiqueConfidentialite.partage.title"),
             content: (
                 <>
-                    <p>
-                        Les données peuvent être partagées uniquement avec :
-                    </p>
+                    <p>{t("politiqueConfidentialite.partage.intro")}</p>
 
                     <ul className="mt-3 space-y-1 list-none">
-                        {[
-                            "Prestataires techniques (hébergement cloud, analytics, infrastructure)",
-                            "Outils nécessaires au fonctionnement de la plateforme",
-                            "Autorités compétentes en cas d'obligation légale",
-                        ].map((item) => (
+                        {(t("politiqueConfidentialite.partage.items", { returnObjects: true }) as string[]).map((item) => (
                             <li key={item} className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
                                 {item}
@@ -108,25 +77,18 @@ export default function PolitiqueConfidentialite() {
                         ))}
                     </ul>
 
-                    <p className="mt-4">
-                        Aucune donnée n'est vendue ou commercialisée.
-                    </p>
+                    <p className="mt-4">{t("politiqueConfidentialite.partage.outro")}</p>
                 </>
             ),
         },
         {
-            title: "Cookies",
+            title: t("politiqueConfidentialite.cookies.title"),
             content: (
                 <>
-                    <p>Drox360 utilise des cookies afin de :</p>
+                    <p>{t("politiqueConfidentialite.cookies.intro")}</p>
 
                     <ul className="mt-3 space-y-1 list-none">
-                        {[
-                            "Assurer le bon fonctionnement du site",
-                            "Mesurer l'audience et la performance",
-                            "Améliorer l'expérience utilisateur",
-                            "Sécuriser les accès à la plateforme",
-                        ].map((item) => (
+                        {(t("politiqueConfidentialite.cookies.items", { returnObjects: true }) as string[]).map((item) => (
                             <li key={item} className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
                                 {item}
@@ -134,28 +96,18 @@ export default function PolitiqueConfidentialite() {
                         ))}
                     </ul>
 
-                    <p className="mt-4">
-                        Un bandeau de gestion des cookies permet de
-                        personnaliser les préférences.
-                    </p>
+                    <p className="mt-4">{t("politiqueConfidentialite.cookies.outro")}</p>
                 </>
             ),
         },
         {
-            title: "Sécurité",
+            title: t("politiqueConfidentialite.securite.title"),
             content: (
                 <>
-                    <p>
-                        Drox360 met en place des mesures avancées de sécurité :
-                    </p>
+                    <p>{t("politiqueConfidentialite.securite.intro")}</p>
 
                     <ul className="mt-3 space-y-1 list-none">
-                        {[
-                            "Chiffrement des données",
-                            "Contrôle des accès",
-                            "Surveillance des systèmes",
-                            "Protection contre les attaques et intrusions",
-                        ].map((item) => (
+                        {(t("politiqueConfidentialite.securite.items", { returnObjects: true }) as string[]).map((item) => (
                             <li key={item} className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
                                 {item}
@@ -166,22 +118,13 @@ export default function PolitiqueConfidentialite() {
             ),
         },
         {
-            title: "Vos droits (RGPD)",
+            title: t("politiqueConfidentialite.droits.title"),
             content: (
                 <>
-                    <p>
-                        Conformément au RGPD, vous disposez des droits
-                        suivants :
-                    </p>
+                    <p>{t("politiqueConfidentialite.droits.intro")}</p>
 
                     <ul className="mt-3 space-y-1 list-none">
-                        {[
-                            "Droit d'accès",
-                            "Droit de rectification",
-                            "Droit de suppression",
-                            "Droit d'opposition",
-                            "Droit à la portabilité des données",
-                        ].map((item) => (
+                        {(t("politiqueConfidentialite.droits.items", { returnObjects: true }) as string[]).map((item) => (
                             <li key={item} className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 rounded-full flex-shrink-0" />
                                 {item}
@@ -190,11 +133,8 @@ export default function PolitiqueConfidentialite() {
                     </ul>
 
                     <p className="mt-4">
-                        Pour exercer vos droits :
-                        <a
-                            href="mailto:contact@drox360.com"
-                            className="underline ml-1"
-                        >
+                        {t("politiqueConfidentialite.droits.outro")}
+                        <a href="mailto:contact@drox360.com" className="underline ml-1">
                             contact@drox360.com
                         </a>
                     </p>
@@ -202,25 +142,17 @@ export default function PolitiqueConfidentialite() {
             ),
         },
         {
-            title: "Modification",
-            content: (
-                <p>
-                    Cette politique peut être mise à jour afin de rester
-                    conforme aux évolutions légales et techniques.
-                </p>
-            ),
+            title: t("politiqueConfidentialite.modification.title"),
+            content: <p>{t("politiqueConfidentialite.modification.content")}</p>,
         },
         {
-            title: "Dernière mise à jour",
-            content: <p>24/06/2026</p>,
+            title: t("politiqueConfidentialite.derniereMiseAJour.title"),
+            content: <p>{t("politiqueConfidentialite.derniereMiseAJour.date")}</p>,
         },
         {
-            title: "Contact",
+            title: t("politiqueConfidentialite.contact.title"),
             content: (
-                <a
-                    href="mailto:contact@drox360.com"
-                    className="underline"
-                >
+                <a href="mailto:contact@drox360.com" className="underline">
                     contact@drox360.com
                 </a>
             ),
@@ -230,9 +162,9 @@ export default function PolitiqueConfidentialite() {
     return (
         <main className="min-h-screen bg-drox360-light-gray text-black font-glacial px-6 py-20 md:px-16 lg:px-32">
             <div className="max-w-3xl mx-auto">
-                <h1 className="text-h6 font-bold mt-5 mb-2">
-                    Politique de confidentialité
-                </h1>
+                <h2 className="text-h6 font-bold mt-5 mb-2">
+                    {t("politiqueConfidentialite.pageTitle")}
+                </h2>
 
                 <div className="w-12 h-0.5 mb-12" />
 

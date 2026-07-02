@@ -1,11 +1,18 @@
 import HeroComp from "../components/HeroComp.tsx";
 import HistoryList from "../components/history/HistoryList.tsx";
 import PrincipesList from "../components/principe/PrincipesList.tsx";
+import { useTranslation } from 'react-i18next';
 
 function About() {
+    const { t } = useTranslation();
+
     return (
         <div className="bg-drox360-light-gray">
-            <HeroComp blackText="Pensée humaine Impact" orangeText="Digital" description="Une agence de production Créative basée à Paris. Nous fusionnons stratégie éditoriale et haute qualité visuelle pour les marques qui refusent le Minimum."/>
+            <HeroComp
+                blackText={t('about-hero.blackText')}
+                orangeText={t('about-hero.orangeText')}
+                description={t('about-hero.description')}
+            />
             <HistoryList />
             {/*<TeamList />*/}
             <PrincipesList />

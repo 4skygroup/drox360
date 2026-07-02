@@ -1,12 +1,12 @@
 export const politique = [
-    { label: "Mentions légales", href: "/mentions-legales" },
-    { label: "Confidentialité", href: "/confidentialite" },
+    { labelKey: "footer.links.legalNotice", href: "/mentions-legales" },
+    { labelKey: "footer.links.privacy", href: "/confidentialite" },
 ];
 
 export const services = [
-    { label: "Projets", href: "/projets" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
+    { labelKey: "footer.links.projects", href: "/projets" },
+    { labelKey: "footer.links.about", href: "/about" },
+    { labelKey: "footer.links.contactUs", href: "/contact" },
 ];
 
 export const entites = [

@@ -1,14 +1,16 @@
+import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
-const tags = [
-    "Direction Créative",
-    "Production de Contenu",
-    "Stratégie de Marque",
-    "Social Media",
-];
-
 export default function Hero() {
+    const { t } = useTranslation();
     const navigate = useNavigate();
+
+    const tags = [
+        t("hero.tags.creative_direction"),
+        t("hero.tags.content_production"),
+        t("hero.tags.brand_strategy"),
+        t("hero.tags.social_media"),
+    ];
 
     return (
         <section className="min-h-screen bg-drox360-light-gray flex items-center px-6 md:px-16 lg:px-24">
@@ -42,11 +44,7 @@ export default function Hero() {
 
                     {/* Description */}
                     <p className="text-t5 text-black/70 leading-relaxed max-w-sm md:max-w-lg">
-                        Nous sommes une agence créative indépendante, née de la conviction
-                        qu'une bonne histoire bien racontée est le levier le plus puissant
-                        qu'une marque puisse activer.
-                        Nous aidons les entreprises à trouver leur voix — et à la faire
-                        entendre.
+                        {t("hero.description")}
                     </p>
 
                     {/* CTAs */}
@@ -55,7 +53,7 @@ export default function Hero() {
                             className="flex items-center gap-2 bg-drox360-orange text-white text-t5 font-bold px-6 py-3 rounded-full hover:bg-orange-600 transition-colors duration-200"
                             onClick={() => navigate("/contact")}
                         >
-                            Démarrer le projet
+                            {t("hero.cta")}
                             <span className="text-t4">→</span>
                         </button>
                         {/*<button*/}
@@ -72,7 +70,7 @@ export default function Hero() {
                     <div className="w-72 h-72 md:w-[420px] md:h-[420px] rounded-3xl overflow-hidden shadow-2xl ">
                         <img
                             src="/heroImg.jpg"
-                            alt="Drox 360 Logo"
+                            alt={t("hero.logo_alt")}
                             className="w-full h-full object-contain"
                         />
                     </div>

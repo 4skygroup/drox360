@@ -1,43 +1,41 @@
-import { faqData } from "./FaqData.tsx";
 import FAQRow from "./FaqRow.tsx";
-import {useState} from "react";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const FAQ = () => {
-
     const [openIndex, setOpenIndex] = useState<number | null>(null);
+    const { t } = useTranslation();
+
+    const faqIds = Object.keys(
+        t("faq.items", { returnObjects: true }) as Record<string, unknown>
+    );
 
     return (
         <section className="w-full flex flex-col md:flex-row justify-center items-start px-6 py-16 gap-12">
-
             <div className="flex flex-col">
                 <h2 className="font-glacial text-h7 font-bold text-black tracking-widest uppercase">
-                    FAQ
+                    {t("faq.title")}
                 </h2>
 
                 <p>
-                    Vous avez des questions sur comment on travaille ?
+                    {t("faq.subtitleLine1")}
                     <br />
-                    Voici les réponses aux questions qu'on nous pose le plus souvent.
+                    {t("faq.subtitleLine2")}
                 </p>
             </div>
 
             <div className="w-full max-w-2xl">
-
-                {faqData.map((item, index) => (
+                {faqIds.map((id, index) => (
                     <FAQRow
-                        key={item.id}
-                        item={item}
+                        key={id}
+                        id={id}
                         isOpen={openIndex === index}
                         onToggle={() =>
-                            setOpenIndex(
-                                openIndex === index ? null : index
-                            )
+                            setOpenIndex(openIndex === index ? null : index)
                         }
                     />
                 ))}
-
             </div>
-
         </section>
     );
 };

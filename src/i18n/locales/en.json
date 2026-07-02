@@ -1,0 +1,422 @@
+{
+  "navbar": {
+    "theGroup": "The Group",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "languageToggle": "Français",
+    "closeMenu": "Close menu",
+    "toggleMenu": "Toggle menu",
+    "footerMention": "A Play To Sky Group Entity"
+  },
+
+  "hero": {
+    "tags": {
+      "creative_direction": "Creative Direction",
+      "content_production": "Content Production",
+      "brand_strategy": "Brand Strategy",
+      "social_media": "Social Media"
+    },
+    "description": "We are an independent creative agency, born from the belief that a well-told story is the most powerful lever a brand can pull. We help businesses find their voice — and make it heard.",
+    "cta": "Start the project",
+    "logo_alt": "Drox 360 Logo"
+  },
+
+  "slogan": {
+    "title": "Creating isn't decorating. It's directing.",
+    "subtitle": "Every brand has an intention. Drox 360° gives it a direction, an image and a presence capable of existing with strength across its key channels."
+  },
+
+  "process": {
+    "services": [
+      {
+        "title": "Brand strategy",
+        "description": "We define the positioning, promise, and key messages to build a strong, consistent brand."
+      },
+      {
+        "title": "Creative direction",
+        "description": "We shape concepts, tone, visual universe, and strong references to guide the entire communication."
+      },
+      {
+        "title": "Visual identity",
+        "description": "We create or structure the visual elements that make your brand recognizable and lasting."
+      },
+      {
+        "title": "Deployment",
+        "description": "We adapt your image across every channel: content, campaigns, social media, presentations, print, digital."
+      }
+    ]
+  },
+
+  "about": {
+    "title": "This is far more than just an agency.",
+    "paragraph1": "It's a true creative lab where ideas come to life, transform, and evolve to craft unique digital experiences. At Drox, we don't just meet a need: we anticipate, imagine, and build <highlight>worlds that leave a lasting impression.</highlight>",
+    "paragraph2": "Drox supports <highlight>ambitious brands</highlight> in creating innovative products and experiences. Every project is treated as a work in its own right, with careful attention to detail, emotion, and impact.",
+    "paragraph3": "More than a service provider, Drox positions itself as a vision partner. A team that understands the stakes, challenges ideas, and pushes every concept to its full potential.",
+    "paragraph4": "Drox is the alliance of <highlight>bold creativity</highlight> and <highlight2>masterful execution</highlight2>: giving rise to experiences that don't go unnoticed."
+  },
+
+  "faq": {
+    "title": "FAQ",
+    "subtitleLine1": "Have questions about how we work?",
+    "subtitleLine2": "Here are the answers to the questions we get asked most often.",
+    "items": {
+      "1": {
+        "question": "Is Drox 360 an agency or a production studio?",
+        "answer": "Both, and much more. Drox 360 is a comprehensive ecosystem combining the strategic vision of a consulting agency with the operational strength of an integrated production studio (including post-production). We break down traditional silos to lead your projects from A to Z: from concept to final activation. This agility guarantees fast, premium execution, with no dilution between the initial idea and the deliverable."
+      },
+      "2": {
+        "question": "What types of clients do you work with?",
+        "answer": "We work with brands, industry leaders, and fast-growing companies, primarily in the luxury, corporate, and entertainment sectors, in France and internationally. Our clients are demanding organizations that aren't looking for standardized formats, but rather meaning, desirability, strong added value, and real business impact."
+      },
+      "3": {
+        "question": "At what stage does Drox 360 get involved in a project?",
+        "answer": "Our 360° model lets us step in at every key stage of your development, tailored to your needs: Strategic & Narrative Framing: positioning definition, brand strategy, and project engineering. Creative & Digital Design: visual identity, strong concepts, and digital ecosystems. Cross-channel Production: premium production (film, photo, digital, immersive and event formats). Deployment & Performance: activation strategies, distribution, and impact optimization. Our strength: total flexibility. We adapt our level of involvement to your real challenges, without the rigidity of traditional agencies, while guaranteeing absolute overall consistency."
+      },
+      "4": {
+        "question": "How do you work with your clients in practice?",
+        "answer": "In total synergy and co-creation. We believe in short circuits, direct and transparent exchanges, and close proximity with your teams. Each project is led by a dedicated team that masters both the financial and strategic stakes and the operational details. Our watchwords: rigor in substance, precision in form, and absolute respect for deadlines."
+      },
+      "5": {
+        "question": "What budget should you plan for working with Drox 360?",
+        "answer": "There's no standard answer, because we don't offer off-the-shelf proposals. Drox 360 works on both targeted strategic activations and the overall direction of large-scale projects. We always build optimized, transparent solutions strictly aligned with your return-on-investment objectives."
+      },
+      "6": {
+        "question": "What sets Drox 360 apart from a traditional agency?",
+        "answer": "Perfect alignment between vision and execution. A traditional agency advises but outsources; a studio produces but sometimes lacks strategic perspective. Drox 360 merges these two worlds. We combine the strategic overview of 360° consulting with the technical mastery of an integrated studio. We move fluidly between brand, content, tech culture, and business imperatives to create powerful, lasting solutions."
+      }
+    }
+  },
+
+  "about-hero": {
+    "blackText": "Human thinking",
+    "orangeText": "Digital Impact",
+    "description": "A creative production agency based in Paris. We blend editorial strategy and high-end visual quality for brands that refuse to settle for average."
+  },
+
+  "history": {
+    "sectionLabel": "— Our story",
+    "items": {
+      "founded": {
+        "value": "2025",
+        "title": "Founded in Paris",
+        "description": "France & International."
+      },
+      "team": {
+        "value": "Agile",
+        "title": "Core team",
+        "description": "Network of specialized talent."
+      },
+      "independent": {
+        "value": "100%",
+        "title": "Independent",
+        "description": "No outside shareholders."
+      },
+      "integrated": {
+        "value": "Solo",
+        "title": "Integrated",
+        "description": "Strategy & Production unified."
+      }
+    },
+    "paragraph1": "DROX360° was born from a shared observation by its founders: too many good companies communicate poorly — not for lack of ideas, but for lack of time, tools, and method.",
+    "paragraph2": "And too many agencies offer standardized solutions to problems that are, by nature, unique.",
+    "paragraph3": "An agile structure, free of unnecessary hierarchical layers, able to move fast without sacrificing rigor.",
+    "quote": "\"We don't want to be the agency that does everything. We want to be the one that does it well.\"",
+    "paragraph4": "Today, DROX360° supports growing companies, ambitious independents, and brands still under construction."
+  },
+
+  "principles": {
+    "label": "Our principles",
+    "items": [
+      {
+        "title": "Honesty above all",
+        "description": "We say what we think. If your idea isn't the right one, we tell you — with arguments and an alternative."
+      },
+      {
+        "title": "Quality without compromise",
+        "description": "We don't deliver something we're not proud of. Not for ego — out of respect for your investment."
+      },
+      {
+        "title": "Agility as an advantage",
+        "description": "Our small size is a strength. We make decisions fast, adapt fast, and communicate directly."
+      },
+      {
+        "title": "Longevity as a goal",
+        "description": "We aim to build long-lasting relationships with clients who trust us."
+      },
+      {
+        "title": "Constant curiosity",
+        "description": "We take an interest in your industries and challenges. An agency that doesn't understand your reality can't represent you well."
+      },
+      {
+        "title": "Financial transparency",
+        "description": "Clear quotes, detailed line items, zero hidden fees. You always know where your money goes."
+      }
+    ]
+  },
+
+  "services-hero": {
+    "orangeText": "Our Services",
+    "description": "Four areas of expertise, one guiding thread: helping your brand communicate with clarity, consistency and impact. Every project is tailor-made — no standard package, no generic deliverable."
+  },
+
+  "services": {
+    "tag": "BRAND & CONTENT",
+    "list": [
+      {
+        "title": "Brand",
+        "titleHighlight": "Content",
+        "description": "We define, think through and help you find your identity and voice for your brands.",
+        "expertises": [
+          { "title": "Editorial Identity", "description": "Definition of the textual guideline, tone of voice and core values that will carry your messages." },
+          { "title": "Brand Storytelling", "description": "Design of immersive narratives to transform your brand into a memorable experience for your audience." },
+          { "title": "Content Creation", "description": "Production of tailor-made creative resources (copywriting, visuals) to fuel your various channels." },
+          { "title": "Art Direction", "description": "Overall supervision of your brand's aesthetic to ensure flawless consistency across all media." }
+        ]
+      },
+      {
+        "title": "Digital",
+        "titleHighlight": "Production",
+        "description": "From studio images to real-life shoots. We produce content that truly reflects who you are.",
+        "expertises": [
+          { "title": "Brand Films", "description": "High-definition cinematic videos designed to build your reputation and present your world in a prestigious way." },
+          { "title": "Product Videos", "description": "Technical and aesthetic showcase of your products through macro shots, dynamic movements and studio lighting." },
+          { "title": "Photo Shoot", "description": "Professional photography (lifestyle, packshot, portrait) for a rich, high-end image library." },
+          { "title": "Social Formats (Reels)", "description": "Creation of vertical content paced and optimized for Instagram, TikTok and Shorts algorithms." }
+        ]
+      },
+      {
+        "title": "Creative",
+        "titleHighlight": "Strategy",
+        "description": "What makes you different? We help you find it and bring it to life through your content.",
+        "expertises": [
+          { "title": "Audit & Positioning", "description": "In-depth analysis of your current presence and strategic repositioning against the competition." },
+          { "title": "Content Architecture", "description": "Logical and strategic organization of your content plans to guide users toward their next actions." },
+          { "title": "Creative Recommendations", "description": "Generation of innovative concepts and creative directions to test fresh ideas and surprise your market." },
+          { "title": "Audience Definition", "description": "Creation of persona sheets to adapt the message to the real expectations of your future customers." }
+        ]
+      },
+      {
+        "title": "Social",
+        "titleHighlight": "Media",
+        "description": "Your social media presence should no longer be a simple problem to solve: we transform it.",
+        "expertises": [
+          { "title": "Platform Strategy", "description": "Selection and optimization of the most relevant social networks for your business goals." },
+          { "title": "Editorial Calendar", "description": "Rigorous planning of publications to maintain a regular presence and engage your audiences." },
+          { "title": "Management & Animation", "description": "Moderation, community interactions and daily monitoring to keep your brand active in real time." },
+          { "title": "Reporting & Analysis", "description": "Precise tracking of KPIs (engagement, reach, conversion) to adjust strategy based on real performance." }
+        ]
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Let's build your growth together",
+    "subtitle": "Our experts help you define a digital strategy aligned with your goals. Contact us using whichever channel suits you best.",
+    "info": {
+      "email": { "label": "Email", "value": "contact@drox360.com" },
+      "phone": { "label": "Phone", "value": "01 30 29 30 25" },
+      "hours": { "label": "Hours", "value": "Mon–Fri · 9:30am–7:00pm" }
+    },
+    "tagline": "9 complementary areas of expertise, one goal: growing your business.",
+    "form": {
+      "tabs": { "callback": "Request a callback", "message": "Send a message" },
+      "subjects": ["SEO", "Social Ads", "Content Marketing", "Analytics", "Other"],
+      "timeSlots": ["9:30 – 10:30", "10:30 – 11:30", "11:30 – 12:30", "2:00 – 3:00", "3:00 – 4:00", "4:00 – 5:00", "5:00 – 6:00"],
+      "selectPlaceholder": "Select…",
+      "callback": {
+        "nom": "Last name",
+        "nomPlaceholder": "Smith",
+        "prenom": "First name",
+        "prenomPlaceholder": "John",
+        "phone": "Phone number",
+        "phonePlaceholder": "+1 555 123 4567",
+        "subject": "Subject",
+        "time": "Call time slot",
+        "date": "Call date",
+        "submit": "Schedule the call",
+        "submitting": "Sending…",
+        "success": "Request sent successfully!",
+        "error": "Something went wrong. Please try again."
+      },
+      "message": {
+        "nom": "Last name",
+        "nomPlaceholder": "Last name",
+        "prenom": "First name",
+        "prenomPlaceholder": "First name",
+        "email": "Email",
+        "emailPlaceholder": "john@example.com",
+        "subject": "Subject",
+        "message": "Message",
+        "messagePlaceholder": "Tell us how we can help…",
+        "submit": "Send message",
+        "submitting": "Sending…",
+        "success": "Message sent successfully!",
+        "error": "Something went wrong. Please try again."
+      }
+    }
+  },
+
+  "footer": {
+    "columns": {
+      "legal": "Legal",
+      "services": "Services",
+      "entities": "Our entities",
+      "contact": "Contact"
+    },
+    "links": {
+      "legalNotice": "Legal notice",
+      "privacy": "Privacy",
+      "projects": "Projects",
+      "about": "About",
+      "contactUs": "Contact"
+    },
+    "createdBy": "Created by"
+  },
+
+  "mentionsLegales": {
+    "pageTitle": "Legal Notice",
+    "editeur": {
+      "title": "Site publisher",
+      "introPrefix": "The Drox360 website, accessible at",
+      "introSuffix": ", is published by:",
+      "societe": "Company: Visuance Agency",
+      "email": "Email:"
+    },
+    "hebergement": {
+      "title": "Hosting",
+      "hebergeur": "Host: OVH Cloud",
+      "siteWeb": "Website:"
+    },
+    "activite": {
+      "title": "Activity",
+      "intro": "Drox360 is a technology solution specialized in the digitalization and optimization of business processes, including:",
+      "items": [
+        "Digital platform / SaaS",
+        "Automation and data management",
+        "Technology solutions and system integrations",
+        "Analysis and performance tools",
+        "Development of smart and connected solutions"
+      ]
+    },
+    "propriete": {
+      "title": "Intellectual property",
+      "line1": "All content on the Drox360 website (texts, images, logos, interfaces, code, documents, structure, etc.) is protected by intellectual property law.",
+      "line2": "Any reproduction, representation, modification, or exploitation, in whole or in part, without prior written authorization is strictly prohibited."
+    },
+    "responsabilite": {
+      "title": "Liability",
+      "intro": "Drox360 strives to provide reliable and up-to-date information. However, the publisher cannot be held liable for:",
+      "items": [
+        "Errors or omissions",
+        "Interruption or unavailability of the site",
+        "Use of the information or services presented"
+      ]
+    },
+    "liensExternes": {
+      "title": "External links",
+      "content": "The site may contain links to third-party sites. Drox360 does not control these sites and disclaims all responsibility for their content."
+    },
+    "donneesPersonnelles": {
+      "title": "Personal data",
+      "content": "Personal data collected on the site is processed in accordance with applicable regulations and the privacy policy below."
+    },
+    "droitApplicable": {
+      "title": "Applicable law",
+      "content": "The site is governed by French law. Any dispute falls under the jurisdiction of the courts where Drox360's registered office is located."
+    }
+  },
+  "politiqueConfidentialite": {
+    "pageTitle": "Privacy Policy",
+    "collecte": {
+      "title": "Data collection",
+      "intro": "Drox360 may collect data when you:",
+      "items": [
+        "Use the platform or website",
+        "Fill out a contact or demo request form",
+        "Browse the site's pages"
+      ],
+      "outro": "Data may include: first name, last name, email, phone, company, technical data, IP address and connection logs."
+    },
+    "utilisation": {
+      "title": "Use of data",
+      "items": [
+        "Provide and improve the platform's services",
+        "Manage contact and demo requests",
+        "Provide user support",
+        "Improve system performance and security",
+        "Conduct usage analysis and statistics"
+      ]
+    },
+    "baseLegale": {
+      "title": "Legal basis",
+      "items": [
+        "User consent",
+        "Performance of a contract or service request",
+        "The company's legitimate interest (product improvement and security)"
+      ]
+    },
+    "conservation": {
+      "title": "Retention period",
+      "items": [
+        "Prospective users: up to 3 years after last contact.",
+        "Clients / active users: duration of contract + legal obligations.",
+        "Technical logs: limited duration for security and maintenance."
+      ]
+    },
+    "partage": {
+      "title": "Data sharing",
+      "intro": "Data may only be shared with:",
+      "items": [
+        "Technical service providers (cloud hosting, analytics, infrastructure)",
+        "Tools required for the platform to operate",
+        "Competent authorities in case of legal obligation"
+      ],
+      "outro": "No data is sold or commercialized."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "intro": "Drox360 uses cookies to:",
+      "items": [
+        "Ensure the site functions properly",
+        "Measure audience and performance",
+        "Improve user experience",
+        "Secure access to the platform"
+      ],
+      "outro": "A cookie management banner allows preferences to be customized."
+    },
+    "securite": {
+      "title": "Security",
+      "intro": "Drox360 implements advanced security measures:",
+      "items": [
+        "Data encryption",
+        "Access control",
+        "System monitoring",
+        "Protection against attacks and intrusions"
+      ]
+    },
+    "droits": {
+      "title": "Your rights (GDPR)",
+      "intro": "In accordance with GDPR, you have the following rights:",
+      "items": [
+        "Right of access",
+        "Right of rectification",
+        "Right of erasure",
+        "Right to object",
+        "Right to data portability"
+      ],
+      "outro": "To exercise your rights:"
+    },
+    "modification": {
+      "title": "Modification",
+      "content": "This policy may be updated to remain compliant with legal and technical developments."
+    },
+    "derniereMiseAJour": {
+      "title": "Last updated",
+      "date": "06/24/2026"
+    },
+    "contact": {
+      "title": "Contact"
+    }
+  }
+}

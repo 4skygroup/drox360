@@ -1,5 +1,7 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import {entites, politique, services, social} from "./FooterData.tsx";
+import CreatedBy from "../CreatedBy.tsx";
 
 const FooterColumn = ({
     title,
@@ -20,7 +22,6 @@ const FooterLink = ({
 }: {
     href: string;
     children: React.ReactNode;
-
 }) => (
     <a
         href={href}
@@ -28,11 +29,13 @@ const FooterLink = ({
         target="_blank"
         rel="noopener noreferrer"
     >
-        {children}
-    </a>
+    {children}
+</a>
 );
 
 const Footer = () => {
+    const { t } = useTranslation();
+
     return (
         <footer className="relative w-full overflow-hidden bg-black">
 
@@ -46,23 +49,23 @@ const Footer = () => {
 
                 {/* Columns */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
-                    <FooterColumn title="Politique">
+                    <FooterColumn title={t("footer.columns.legal")}>
                         {politique.map((link) => (
                             <FooterLink key={link.href} href={link.href}>
-                                {link.label}
+                                {t(link.labelKey)}
                             </FooterLink>
                         ))}
                     </FooterColumn>
 
-                    <FooterColumn title="Services">
+                    <FooterColumn title={t("footer.columns.services")}>
                         {services.map((link) => (
                             <FooterLink key={link.href} href={link.href}>
-                                {link.label}
+                                {t(link.labelKey)}
                             </FooterLink>
                         ))}
                     </FooterColumn>
 
-                    <FooterColumn title="Nos entités">
+                    <FooterColumn title={t("footer.columns.entities")}>
                         {entites.map((link) => (
                             <FooterLink key={link.href} href={link.href}>
                                 {link.label}
@@ -70,7 +73,7 @@ const Footer = () => {
                         ))}
                     </FooterColumn>
 
-                    <FooterColumn title="Contact">
+                    <FooterColumn title={t("footer.columns.contact")}>
                         {social.map((c) => (
                             <FooterLink key={c.href} href={c.href}>
                                 {c.label}
@@ -80,38 +83,7 @@ const Footer = () => {
 
                 </div>
 
-                {/* COPYRIGHT */}
-                <div className="mt-8 flex items-center justify-center gap-3 text-t3 font-regular tracking-normal text-white/60">
-                    <span>created by</span>
-
-                    <a
-                        href="https://visuanceagency.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img
-                            src="/visuance.png"
-                            alt="Visuance logo"
-                            loading="lazy"
-                            className="h-4 cursor-pointer"
-                        />
-                    </a>
-
-                    <span>&</span>
-
-                    <a
-                        href="https://www.playtosky.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img
-                            src="/play-to-sky.png"
-                            alt="Play To Sky logo"
-                            loading="lazy"
-                            className="h-6 cursor-pointer"
-                        />
-                    </a>
-                </div>
+                <CreatedBy />
             </div>
         </footer>
     );
