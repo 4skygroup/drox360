@@ -10,9 +10,9 @@
   "lang": "fr",
   "icons": [
     {
-      "src": "/logoDrox.png",
+      "src": "/logoDrox.webp",
       "sizes": "any",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any maskable"
     }
   ]

@@ -5,12 +5,12 @@
   <url>
     <loc>https://drox360.fr/</loc>
     <image:image>
-      <image:loc>https://drox360.fr/heroImg.jpg</image:loc>
+      <image:loc>https://drox360.fr/heroImg.webp</image:loc>
       <image:title>DROX 360° — Agence Créative à Paris</image:title>
       <image:caption>Agence créative indépendante basée à Paris, spécialisée en direction créative et stratégie de marque</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://drox360.fr/logoDrox.png</image:loc>
+      <image:loc>https://drox360.fr/logoDrox.webp</image:loc>
       <image:title>Logo DROX 360°</image:title>
     </image:image>
   </url>
@@ -18,7 +18,7 @@
   <url>
     <loc>https://drox360.fr/projets</loc>
     <image:image>
-      <image:loc>https://drox360.fr/imgCardDrox.png</image:loc>
+      <image:loc>https://drox360.fr/imgCardDrox.webp</image:loc>
       <image:title>Projets DROX 360° — Réalisations créatives</image:title>
       <image:caption>Aperçu des projets réalisés par l'agence DROX 360°</image:caption>
     </image:image>
