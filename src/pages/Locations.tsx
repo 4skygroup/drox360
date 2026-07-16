@@ -1,20 +1,20 @@
+import { useTranslation } from "react-i18next";
 import GlobeMap from "../components/map/GlobeMap.tsx";
 import { useNavigate } from "react-router-dom";
 
 export default function Locations() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   return (
     <div className="bg-drox360-light-gray text-black ">
       <section className="flex flex-col items-center justify-center gap-y-8 md:gap-y-12 md:py-40 md:pt-25 py-24 md:py-25 px-4 md:px-5">
         <div className="flex flex-col items-center justify-center gap-6 md:gap-8">
           <p className="text-center font-bold max-w-4xl text-3xl md:text-t1 ">
-            Drox 360°, une vision unique pour votre croissance
+            {t("locations.title")}
           </p>
           <p className="text-[#726f6f] text-center text-base md:text-lg max-w-3xl">
-            Une expertise créative 360° qui donne vie à des expériences
-            digitales innovantes, pensées pour révéler tout le potentiel de
-            votre marque
+            {t("locations.description")}
             {/* {t("locations.description")} */}
           </p>
         </div>
@@ -24,17 +24,23 @@ export default function Locations() {
         <div className="grid grid-cols-3 md:flex md:flex-row gap-10 md:gap-32 w-fit max-w-5xl justify-items-center">
           <div className="flex flex-col gap-y-1 items-center justify-center">
             <span className="font-bold text-3xl md:text-h6">+50</span>
-            <span className="uppercase text-xs md:text-t6">Experts</span>
+            <span className="uppercase text-xs md:text-t6">
+              {t("locations.stats.experts")}
+            </span>
           </div>
 
           <div className="flex flex-col gap-y-1 items-center justify-center">
             <span className="font-bold text-3xl md:text-h6">+500</span>
-            <span className="uppercase text-xs md:text-t6">Clients</span>
+            <span className="uppercase text-xs md:text-t6">
+              {t("locations.stats.clients")}
+            </span>
           </div>
 
           <div className="flex flex-col gap-y-1 items-center justify-center">
             <span className="font-bold text-3xl md:text-h6">4</span>
-            <span className="uppercase text-xs md:text-t6">Continents</span>
+            <span className="uppercase text-xs md:text-t6">
+              {t("locations.stats.continents")}
+            </span>
           </div>
         </div>
       </section>
@@ -47,14 +53,14 @@ export default function Locations() {
       <section className="w-full flex justify-center items-center p-4 md:p-5">
         <div className="max-lg:w-full lg:w-[calc(100%-20px)] max-w-7xl bg-white flex flex-col justify-center items-center py-12 md:py-20 px-5 gap-y-6 md:gap-y-7.5 rounded-r01">
           <p className="font-bold text-center text-black text-t2 md:text-t2">
-            Build your digital success with us.
+            {t("locations.cta.title")}
           </p>
 
           <button
             className="text-t7 md:text-t5 py-4 md:py-5 px-8 md:px-10 bg-black text-white w-fit rounded-full flex justify-center items-center gap-3 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black cursor-pointer"
             onClick={() => navigate("/contact")}
           >
-            Lancer un projet
+            {t("locations.cta.button")}
             <svg
               width="15"
               height="15"

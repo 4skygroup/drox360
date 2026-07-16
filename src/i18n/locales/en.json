@@ -168,10 +168,22 @@
         "titleHighlight": "Content",
         "description": "We define, think through and help you find your identity and voice for your brands.",
         "expertises": [
-          { "title": "Editorial Identity", "description": "Definition of the textual guideline, tone of voice and core values that will carry your messages." },
-          { "title": "Brand Storytelling", "description": "Design of immersive narratives to transform your brand into a memorable experience for your audience." },
-          { "title": "Content Creation", "description": "Production of tailor-made creative resources (copywriting, visuals) to fuel your various channels." },
-          { "title": "Art Direction", "description": "Overall supervision of your brand's aesthetic to ensure flawless consistency across all media." }
+          {
+            "title": "Editorial Identity",
+            "description": "Definition of the textual guideline, tone of voice and core values that will carry your messages."
+          },
+          {
+            "title": "Brand Storytelling",
+            "description": "Design of immersive narratives to transform your brand into a memorable experience for your audience."
+          },
+          {
+            "title": "Content Creation",
+            "description": "Production of tailor-made creative resources (copywriting, visuals) to fuel your various channels."
+          },
+          {
+            "title": "Art Direction",
+            "description": "Overall supervision of your brand's aesthetic to ensure flawless consistency across all media."
+          }
         ]
       },
       {
@@ -179,10 +191,22 @@
         "titleHighlight": "Production",
         "description": "From studio images to real-life shoots. We produce content that truly reflects who you are.",
         "expertises": [
-          { "title": "Brand Films", "description": "High-definition cinematic videos designed to build your reputation and present your world in a prestigious way." },
-          { "title": "Product Videos", "description": "Technical and aesthetic showcase of your products through macro shots, dynamic movements and studio lighting." },
-          { "title": "Photo Shoot", "description": "Professional photography (lifestyle, packshot, portrait) for a rich, high-end image library." },
-          { "title": "Social Formats (Reels)", "description": "Creation of vertical content paced and optimized for Instagram, TikTok and Shorts algorithms." }
+          {
+            "title": "Brand Films",
+            "description": "High-definition cinematic videos designed to build your reputation and present your world in a prestigious way."
+          },
+          {
+            "title": "Product Videos",
+            "description": "Technical and aesthetic showcase of your products through macro shots, dynamic movements and studio lighting."
+          },
+          {
+            "title": "Photo Shoot",
+            "description": "Professional photography (lifestyle, packshot, portrait) for a rich, high-end image library."
+          },
+          {
+            "title": "Social Formats (Reels)",
+            "description": "Creation of vertical content paced and optimized for Instagram, TikTok and Shorts algorithms."
+          }
         ]
       },
       {
@@ -190,10 +214,22 @@
         "titleHighlight": "Strategy",
         "description": "What makes you different? We help you find it and bring it to life through your content.",
         "expertises": [
-          { "title": "Audit & Positioning", "description": "In-depth analysis of your current presence and strategic repositioning against the competition." },
-          { "title": "Content Architecture", "description": "Logical and strategic organization of your content plans to guide users toward their next actions." },
-          { "title": "Creative Recommendations", "description": "Generation of innovative concepts and creative directions to test fresh ideas and surprise your market." },
-          { "title": "Audience Definition", "description": "Creation of persona sheets to adapt the message to the real expectations of your future customers." }
+          {
+            "title": "Audit & Positioning",
+            "description": "In-depth analysis of your current presence and strategic repositioning against the competition."
+          },
+          {
+            "title": "Content Architecture",
+            "description": "Logical and strategic organization of your content plans to guide users toward their next actions."
+          },
+          {
+            "title": "Creative Recommendations",
+            "description": "Generation of innovative concepts and creative directions to test fresh ideas and surprise your market."
+          },
+          {
+            "title": "Audience Definition",
+            "description": "Creation of persona sheets to adapt the message to the real expectations of your future customers."
+          }
         ]
       },
       {
@@ -201,10 +237,22 @@
         "titleHighlight": "Media",
         "description": "Your social media presence should no longer be a simple problem to solve: we transform it.",
         "expertises": [
-          { "title": "Platform Strategy", "description": "Selection and optimization of the most relevant social networks for your business goals." },
-          { "title": "Editorial Calendar", "description": "Rigorous planning of publications to maintain a regular presence and engage your audiences." },
-          { "title": "Management & Animation", "description": "Moderation, community interactions and daily monitoring to keep your brand active in real time." },
-          { "title": "Reporting & Analysis", "description": "Precise tracking of KPIs (engagement, reach, conversion) to adjust strategy based on real performance." }
+          {
+            "title": "Platform Strategy",
+            "description": "Selection and optimization of the most relevant social networks for your business goals."
+          },
+          {
+            "title": "Editorial Calendar",
+            "description": "Rigorous planning of publications to maintain a regular presence and engage your audiences."
+          },
+          {
+            "title": "Management & Animation",
+            "description": "Moderation, community interactions and daily monitoring to keep your brand active in real time."
+          },
+          {
+            "title": "Reporting & Analysis",
+            "description": "Precise tracking of KPIs (engagement, reach, conversion) to adjust strategy based on real performance."
+          }
         ]
       }
     ]
@@ -221,8 +269,22 @@
     "tagline": "9 complementary areas of expertise, one goal: growing your business.",
     "form": {
       "tabs": { "callback": "Request a callback", "message": "Send a message" },
-      "subjects": ["SEO", "Social Ads", "Content Marketing", "Analytics", "Other"],
-      "timeSlots": ["9:30 – 10:30", "10:30 – 11:30", "11:30 – 12:30", "2:00 – 3:00", "3:00 – 4:00", "4:00 – 5:00", "5:00 – 6:00"],
+      "subjects": [
+        "SEO",
+        "Social Ads",
+        "Content Marketing",
+        "Analytics",
+        "Other"
+      ],
+      "timeSlots": [
+        "9:30 – 10:30",
+        "10:30 – 11:30",
+        "11:30 – 12:30",
+        "2:00 – 3:00",
+        "3:00 – 4:00",
+        "4:00 – 5:00",
+        "5:00 – 6:00"
+      ],
       "selectPlaceholder": "Select…",
       "callback": {
         "nom": "Last name",
@@ -254,6 +316,24 @@
         "success": "Message sent successfully!",
         "error": "Something went wrong. Please try again."
       }
+    }
+  },
+
+  "locations": {
+    "badge": "GLOBAL NETWORK",
+    "title": "Drox 360°, a unique vision for your growth.",
+    "description": "A 360° creative expertise that brings innovative digital experiences to life, designed to unlock your brand's full potential.",
+    "agent": "Local Agent",
+    "stats": {
+      "agencies": "Agencies",
+      "experts": "Experts",
+      "clients": "Clients",
+      "continents": "Continents"
+    },
+
+    "cta": {
+      "title": "Building your digital success together.",
+      "button": "Start a project"
     }
   },
 

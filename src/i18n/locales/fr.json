@@ -168,10 +168,22 @@
         "titleHighlight": "Content",
         "description": "Nous définissons, réfléchissons et vous aidons à trouver votre identité et votre voix pour vos marques.",
         "expertises": [
-          { "title": "Identité Éditoriale", "description": "Définition de la ligne de conduite textuelle, du ton de voix et des valeurs fondamentales qui porteront vos messages." },
-          { "title": "Brand Storytelling", "description": "Conception de récits immersifs pour transformer votre marque en une expérience mémorable pour votre audience." },
-          { "title": "Création de Contenu", "description": "Production de ressources créatives sur-mesure (copywriting, visuels) pour alimenter vos différents canaux." },
-          { "title": "Direction Artistique", "description": "Supervision globale de l'esthétique de votre marque pour garantir une cohérence irréprochable sur tous les supports." }
+          {
+            "title": "Identité Éditoriale",
+            "description": "Définition de la ligne de conduite textuelle, du ton de voix et des valeurs fondamentales qui porteront vos messages."
+          },
+          {
+            "title": "Brand Storytelling",
+            "description": "Conception de récits immersifs pour transformer votre marque en une expérience mémorable pour votre audience."
+          },
+          {
+            "title": "Création de Contenu",
+            "description": "Production de ressources créatives sur-mesure (copywriting, visuels) pour alimenter vos différents canaux."
+          },
+          {
+            "title": "Direction Artistique",
+            "description": "Supervision globale de l'esthétique de votre marque pour garantir une cohérence irréprochable sur tous les supports."
+          }
         ]
       },
       {
@@ -179,10 +191,22 @@
         "titleHighlight": "Production",
         "description": "D'images studio en prises de vue réel. Nous produisons des contenus qui vous ressemblent vraiment.",
         "expertises": [
-          { "title": "Films de Marque", "description": "Vidéos cinématiques haute définition destinées à asseoir votre notoriété et présenter votre univers de manière prestigieuse." },
-          { "title": "Vidéos Produits", "description": "Mise en valeur technique et esthétique de vos produits via des plans macro, des mouvements dynamiques et un éclairage studio." },
-          { "title": "Shooting Photo", "description": "Photographie professionnelle (lifestyle, packshot, portrait) pour une banque d'images pregnante et haut de gamme." },
-          { "title": "Formats Sociaux (Reels)", "description": "Création de contenu au vertical aux rythmes et optimisés pour les algorithmes Instagram, TikTok et Shorts." }
+          {
+            "title": "Films de Marque",
+            "description": "Vidéos cinématiques haute définition destinées à asseoir votre notoriété et présenter votre univers de manière prestigieuse."
+          },
+          {
+            "title": "Vidéos Produits",
+            "description": "Mise en valeur technique et esthétique de vos produits via des plans macro, des mouvements dynamiques et un éclairage studio."
+          },
+          {
+            "title": "Shooting Photo",
+            "description": "Photographie professionnelle (lifestyle, packshot, portrait) pour une banque d'images pregnante et haut de gamme."
+          },
+          {
+            "title": "Formats Sociaux (Reels)",
+            "description": "Création de contenu au vertical aux rythmes et optimisés pour les algorithmes Instagram, TikTok et Shorts."
+          }
         ]
       },
       {
@@ -190,10 +214,22 @@
         "titleHighlight": "Strategy",
         "description": "C'est quoi votre différence ? Nous vous aidons à la trouver et à l'incarner au travers de vos contenus.",
         "expertises": [
-          { "title": "Audit & Positionnement", "description": "Analyse profonde de votre présence actuelle et repositionnement stratégique face à la concurrence." },
-          { "title": "Architecture de Contenu", "description": "Organisation logique et stratégique de vos plans de contenu pour guider l'utilisateur vers ses prochaines actions." },
-          { "title": "Recommandations Créatives", "description": "Génération de concepts novateurs et de pistes de création pour tester de seniors bébés et surprendre votre marché." },
-          { "title": "Définition des Audiences", "description": "Création de fiches de personas pour adapter le message aux attentes réelles de vos futurs clients." }
+          {
+            "title": "Audit & Positionnement",
+            "description": "Analyse profonde de votre présence actuelle et repositionnement stratégique face à la concurrence."
+          },
+          {
+            "title": "Architecture de Contenu",
+            "description": "Organisation logique et stratégique de vos plans de contenu pour guider l'utilisateur vers ses prochaines actions."
+          },
+          {
+            "title": "Recommandations Créatives",
+            "description": "Génération de concepts novateurs et de pistes de création pour tester de seniors bébés et surprendre votre marché."
+          },
+          {
+            "title": "Définition des Audiences",
+            "description": "Création de fiches de personas pour adapter le message aux attentes réelles de vos futurs clients."
+          }
         ]
       },
       {
@@ -201,10 +237,22 @@
         "titleHighlight": "Media",
         "description": "Votre présence sur les réseaux sociaux ne doit plus être un simple problème à résoudre : on la transforme.",
         "expertises": [
-          { "title": "Stratégie de Plateforme", "description": "Sélection et optimisation des réseaux sociaux les plus pertinents par rapport à vos objectifs business." },
-          { "title": "Calendrier Éditorial", "description": "Planification rigoureuse des publications pour maintenir une présence régulière et travailler auprès de vos audiences." },
-          { "title": "Gestion & Animation", "description": "Modération, interactions avec la communauté et veille quotidienne pour tenir votre marque en temps réel." },
-          { "title": "Reporting & Analyse", "description": "Suivi précis des KPIs (engagement, portée, conversion) pour ajuster la stratégie en fonction des performances réelles." }
+          {
+            "title": "Stratégie de Plateforme",
+            "description": "Sélection et optimisation des réseaux sociaux les plus pertinents par rapport à vos objectifs business."
+          },
+          {
+            "title": "Calendrier Éditorial",
+            "description": "Planification rigoureuse des publications pour maintenir une présence régulière et travailler auprès de vos audiences."
+          },
+          {
+            "title": "Gestion & Animation",
+            "description": "Modération, interactions avec la communauté et veille quotidienne pour tenir votre marque en temps réel."
+          },
+          {
+            "title": "Reporting & Analyse",
+            "description": "Suivi précis des KPIs (engagement, portée, conversion) pour ajuster la stratégie en fonction des performances réelles."
+          }
         ]
       }
     ]
@@ -220,9 +268,26 @@
     },
     "tagline": "9 expertises complémentaires, un seul objectif : faire grandir votre entreprise.",
     "form": {
-      "tabs": { "callback": "Se faire rappeler", "message": "Envoyer un message" },
-      "subjects": ["SEO & Référencement", "Social Ads", "Content Marketing", "Analytics", "Autre"],
-      "timeSlots": ["9h30 – 10h30", "10h30 – 11h30", "11h30 – 12h30", "14h00 – 15h00", "15h00 – 16h00", "16h00 – 17h00", "17h00 – 18h00"],
+      "tabs": {
+        "callback": "Se faire rappeler",
+        "message": "Envoyer un message"
+      },
+      "subjects": [
+        "SEO & Référencement",
+        "Social Ads",
+        "Content Marketing",
+        "Analytics",
+        "Autre"
+      ],
+      "timeSlots": [
+        "9h30 – 10h30",
+        "10h30 – 11h30",
+        "11h30 – 12h30",
+        "14h00 – 15h00",
+        "15h00 – 16h00",
+        "16h00 – 17h00",
+        "17h00 – 18h00"
+      ],
       "selectPlaceholder": "Sélectionner…",
       "callback": {
         "nom": "Nom",
@@ -254,6 +319,23 @@
         "success": "Message envoyé avec succès !",
         "error": "Une erreur est survenue. Réessaie."
       }
+    }
+  },
+
+  "locations": {
+    "badge": "GLOBAL NETWORK",
+    "title": "Drox 360°, une vision unique pour votre croissance.",
+    "description": "Une expertise créative 360° qui donne vie à des expérience digitales innovantes, pensées pour révéler tout le potentiel de votre marque",
+    "agent": "Agent local",
+    "stats": {
+      "experts": "Experts",
+      "clients": "Clients",
+      "continents": "Continents"
+    },
+
+    "cta": {
+      "title": "Bâtir vos succès digitaux avec nous.",
+      "button": "Démarrer un projet"
     }
   },
 
@@ -420,5 +502,3 @@
     }
   }
 }
-
-
