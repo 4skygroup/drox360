@@ -25,7 +25,7 @@ export default function Hero() {
           {/*    <span className="text-h5 md:text-h3 font-bold text-drox360-orange leading-none tracking-tight">*/}
           {/*      360°*/}
           {/*    </span>*/}
-          {/*    <img src="/logoDrox.webp" alt="drox 360" className="h-15" />*/}
+          {/*    <img src="/logoDrox.webp" loading="lazy" alt="drox 360" className="h-15" />*/}
           {/*</div>*/}
 
           {/* Tags */}
@@ -70,6 +70,7 @@ export default function Hero() {
               src="/heroImg.webp"
               alt={t("hero.logo_alt")}
               className="w-full h-full object-contain"
+              loading="lazy"
             />
           </div>
         </div>

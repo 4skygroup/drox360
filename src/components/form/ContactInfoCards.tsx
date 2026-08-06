@@ -49,6 +49,7 @@ export default function ContactInfoCards() {
           alt=""
           className="h-6 w-auto object-contain"
           style={{ filter: "brightness(0) invert(1)" }}
+          loading="lazy"
         />
         <p className="text-t6 md:text-t5 leading-relaxed text-white/40">
           {t("contact.tagline")}

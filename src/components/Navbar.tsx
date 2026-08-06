@@ -43,7 +43,7 @@ export default function Navbar() {
         to="/"
         className="shrink-0 md:absolute md:left-1/2 md:-translate-x-1/2"
       >
-        <img src="/logoDrox.webp" alt="drox 360" className="h-6" />
+        <img src="/logoDrox.webp" alt="drox 360" className="h-6" loading="lazy"/>
       </NavLink>
 
       {/* ── Desktop nav ── */}
@@ -115,7 +115,7 @@ export default function Navbar() {
         {/* Logo centré */}
         <div className="flex justify-center mt-16 mb-12">
           <NavLink to="/" onClick={() => setMenuOpen(false)}>
-            <img src="/logoDrox.webp" alt="Pulse X" className="h-12" />
+            <img src="/logoDrox.webp" alt="Pulse X" className="h-12" loading="lazy"/>
           </NavLink>
         </div>
 
