@@ -18,9 +18,9 @@ export default function Locations() {
       <div className="bg-drox360-light-gray text-black ">
         <section className="flex flex-col items-center justify-center gap-y-8 md:gap-y-12 md:py-40 md:pt-25 py-24 md:py-25 px-4 md:px-5">
           <div className="flex flex-col items-center justify-center gap-6 md:gap-8">
-            <p className="text-center font-bold max-w-4xl text-3xl md:text-t1 ">
+            <h1 className="text-center font-bold max-w-4xl text-3xl md:text-t1 ">
               {t("locations.title")}
-            </p>
+            </h1>
             <p className="text-[#726f6f] text-center text-base md:text-lg max-w-3xl">
               {t("locations.description")}
               {/* {t("locations.description")} */}
@@ -65,7 +65,7 @@ export default function Locations() {
             </p>
 
             <button
-                className="text-t7 md:text-t5 py-4 md:py-5 px-8 md:px-10 bg-black text-white w-fit rounded-full flex justify-center items-center gap-3 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black cursor-pointer"
+                className="text-t6 md:text-t5 py-4 md:py-5 px-8 md:px-10 bg-black text-white w-fit rounded-full flex justify-center items-center gap-3 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black cursor-pointer"
                 onClick={() => navigate("/contact")}
             >
               {t("locations.cta.button")}

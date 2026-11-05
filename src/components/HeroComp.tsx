@@ -15,7 +15,7 @@ export default function HeroComp({
             <div className="max-w-2xl w-full flex flex-col gap-6">
 
                 {/* Title */}
-                <h2 className="text-h6 md:text-h3 font-bold leading-none tracking-tight">
+                <h1 className="text-h6 md:text-h3 font-bold leading-none tracking-tight">
                     {blackText && (
                         <span className="text-black">
                     {blackText}
@@ -26,7 +26,7 @@ export default function HeroComp({
                     {" "}{orangeText}
                 </span>
                     )}
-                </h2>
+                </h1>
 
                 {/* Description */}
                 <p className="text-t5 text-black/70 leading-relaxed">

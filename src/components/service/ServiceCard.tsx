@@ -16,7 +16,7 @@ export default function ServiceCard({ card }: { card: BrandCard }) {
                 <div>
                     <div className="flex items-center gap-2 mb-4">
                         <span className="block w-6 h-px bg-drox360-orange" />
-                        <span className="text-t7 font-bold tracking-widest text-drox360-orange uppercase">{card.tag}</span>
+                        <span className="text-t6 font-bold tracking-widest text-drox360-orange uppercase">{card.tag}</span>
                     </div>
                     <h2 className="text-h6 font-bold leading-tight text-black">
                         {card.title}<br />

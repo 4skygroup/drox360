@@ -8,7 +8,7 @@ type SEOProps = {
     type?: "website" | "article";
 };
 
-const SITE_URL = "https://drox360.fr";
+const SITE_URL = "https://drox360.com";
 const DEFAULT_IMAGE = `${SITE_URL}/heroImg.webp`;
 const SITE_NAME = "DROX 360°";
 
